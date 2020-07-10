@@ -1,0 +1,57 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ğ‰ñ®
+S	java:S106P"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+S	java:S106
+"9Replace this use of System.out or System.err by a logger.(Å¿ïğúÿÿÿÿ
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(”û““ùÿÿÿÿ
+/
+java:S2178."Correct this "|" to "||".(ßÈÕÎ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ç†”Éıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(òµš¼şÿÿÿÿ
+7
+java:S11168"Remove this empty statement.(üÕ§Ûùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(²–´Ìÿÿÿÿÿ
+L
+java:S1854	"6Remove this useless assignment to local variable "in".(äÆ¾Ó
+S	java:S106"9Replace this use of System.out or System.err by a logger.(øøÃŒùÿÿÿÿ
+O
+java:S1854<"9Remove this useless assignment to local variable "array".(Á¬§ğ
+Q
+java:S1854";Remove this useless assignment to local variable "number1".(¬Êøõ
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(Çµí‘
+s	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(Ûòæıÿÿÿÿ
+Z
+java:S1854"DRemove this useless assignment to local variable "colichistvoStanc".(À„Ä
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(±âÇ¥øÿÿÿÿ
+S
+java:S1854,"8Remove this useless assignment to local variable "mans".(›ÖØƒıÿÿÿÿ
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(À›êœøÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(‘ø½‚
+P
+java:S1854?"5Remove this useless assignment to local variable "j".(¤©üÕùÿÿÿÿ
+H
+java:S11999"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+Y
+java:S1854(">Remove this useless assignment to local variable "daysInMans".(©›Îœúÿÿÿÿ
+K
+java:S1854A"5Remove this useless assignment to local variable "l".(óĞí
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(è™œ¬üÿÿÿÿ
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(³µ¶àşÿÿÿÿ
+R
+java:S1854*"7Remove this useless assignment to local variable "day".(ò‰¾íüÿÿÿÿ
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(ŞÀæÏ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(àªÅö
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(‡›ÙÏùÿÿÿÿ
+N	java:S1064"9Replace this use of System.out or System.err by a logger.(ÏºƒŞ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Å´åÏ
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(œ¸Şëùÿÿÿÿ
+P
+java:S1854@"5Remove this useless assignment to local variable "k".(Ó«¯ûÿÿÿÿ
+A
+java:S1172"+Remove this unused method parameter "args".(Çµí‘
+S	java:S106"9Replace this use of System.out or System.err by a logger.(€ù»–şÿÿÿÿ
+U
+java:S18546":Remove this useless assignment to local variable "razmer".(Ëùªîúÿÿÿÿ
+S	java:S106N"9Replace this use of System.out or System.err by a logger.(¸î“Èÿÿÿÿÿ
