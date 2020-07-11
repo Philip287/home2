@@ -1,21 +1,15 @@
 
 O
-java:S1128"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8 ¬ÄÉ³.
-D
-java:S1481"'Remove this unused "in" local variable.(äÆ¾Ó8¡îÖÉ³.
-P
-java:S1118":Add a private constructor to hide the implicit public one.(“ĞËÏ
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8‡„†Í³.
 `
-java:S1854">Remove this useless assignment to local variable "STR_LENGTH".(‡ò§«øÿÿÿÿ8â–Ù¿³.
-H
-java:S1172"+Remove this unused method parameter "args".(Çµí‘8â–Ù¿³.
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡ò§«øÿÿÿÿ8¡îÖÉ³.
+java:S1854	">Remove this useless assignment to local variable "STR_LENGTH".(•ş»Ûúÿÿÿÿ8â–Ù¿³.
+r	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ş»Ûúÿÿÿÿ8¡îÖÉ³.
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ñô¯
-S
-java:S1854"6Remove this useless assignment to local variable "in".(äÆ¾Ó8¡îÖÉ³.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(×Æáî8¡îÖÉ³.
-U	java:S106	"9Replace this use of System.out or System.err by a logger.(ñÈÏ8í¢ÖÉ³.
-U
-java:S1197"8Move the array designator from the variable to the type.(¼ù•8¡îÖÉ³.
-_
-java:S1854"=Remove this useless assignment to local variable "znachenie".(›éÇ‚ùÿÿÿÿ8¡îÖÉ³.
+H
+java:S1172"+Remove this unused method parameter "args".(Çµí‘8â–Ù¿³.
+P
+java:S1118":Add a private constructor to hide the implicit public one.(“ĞËÏ
+Z
+java:S1854"=Remove this useless assignment to local variable "znachenie".(•÷Ô±8¡îÖÉ³.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¨—êù8¡îÖÉ³.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ñÈÏ8í¢ÖÉ³.
