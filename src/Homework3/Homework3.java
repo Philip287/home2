@@ -18,18 +18,26 @@ public class Homework3 {
         System.out.println(builder);
 
         String sas = builder.toString();
-        String sas1 = sas.replaceAll("\\s\\d{2}\\s", " -1 ");
 
+        String sas1 = sas.replaceAll("\\s\\d{2}\\s", " -1 ");
         System.out.println(sas1);
 
+//Пользователь вводит имя и возраст. Вывести сообщение, приветствующее
+// пользователя. - форматирование (String.format) через спецификаторы
+
         Scanner sc = new Scanner(System.in);
-        System.out.print("input your first name ");
+        Scanner in = new Scanner(System.in);
+
+        System.out.print("input your first name:  ");
         String firstName = sc.nextLine();
-        System.out.print("input your second name ");
+
+        System.out.print("input your second name: ");
         String secondtName = sc.nextLine();
-        System.out.format("Your are %s %s! Hello!!!", firstName, secondtName);
 
+        System.out.print("input your year of birth: ");
+        int year = in.nextInt();
 
+        System.out.format("Hello!!! Your are %s %s! your year of birth %d!", firstName, secondtName, year);
 
 
     }
