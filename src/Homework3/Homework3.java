@@ -1,6 +1,7 @@
 package Homework3;
 
-import java.util.Arrays;
+import java.sql.SQLOutput;
+import java.util.Scanner;
 
 public class Homework3 {
     public static void main(String[] args) {
@@ -20,6 +21,16 @@ public class Homework3 {
         String sas1 = sas.replaceAll("\\s\\d{2}\\s", " -1 ");
 
         System.out.println(sas1);
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("input your first name ");
+        String firstName = sc.nextLine();
+        System.out.print("input your second name ");
+        String secondtName = sc.nextLine();
+        System.out.format("Your are %s %s! Hello!!!", firstName, secondtName);
+
+
+
 
     }
 
