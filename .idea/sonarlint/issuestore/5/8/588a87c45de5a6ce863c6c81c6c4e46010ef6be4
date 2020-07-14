@@ -1,15 +1,25 @@
 
-O
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8‡„†Í³.
-`
-java:S1854	">Remove this useless assignment to local variable "STR_LENGTH".(•ş»Ûúÿÿÿÿ8â–Ù¿³.
-r	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ş»Ûúÿÿÿÿ8¡îÖÉ³.
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ñô¯
-H
-java:S1172"+Remove this unused method parameter "args".(Çµí‘8â–Ù¿³.
-P
-java:S1118":Add a private constructor to hide the implicit public one.(“ĞËÏ
 Z
-java:S1854"=Remove this useless assignment to local variable "znachenie".(•÷Ô±8¡îÖÉ³.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(¨—êù8¡îÖÉ³.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ñÈÏ8í¢ÖÉ³.
+java:S1854"=Remove this useless assignment to local variable "znachenie".(•÷Ô±8¡îÖÉ³.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ú³±úÿÿÿÿ8ĞÃÓú³.
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(¬ı®‘8ĞÚØü³.
+S
+java:S1854"6Remove this useless assignment to local variable "in".(äÆ¾Ó8µ¿Øü³.
+U	java:S106""9Replace this use of System.out or System.err by a logger.(÷é›­8ĞÚØü³.
+H
+java:S1172"+Remove this unused method parameter "args".(Çµí‘8â–Ù¿³.
+`
+java:S1854">Remove this useless assignment to local variable "STR_LENGTH".(•ş»Ûúÿÿÿÿ8â–Ù¿³.
+U	java:S106("9Replace this use of System.out or System.err by a logger.(úêÊ½8ĞÚØü³.
+X
+java:S1854"6Remove this useless assignment to local variable "sc".(ğÛ²¸øÿÿÿÿ8ĞŠœû³.
+Z
+java:S1854&"8Remove this useless assignment to local variable "year".(¹ÒŠ®ıÿÿÿÿ8ĞÚØü³.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ş»Ûúÿÿÿÿ8¡îÖÉ³.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¨—êù8¡îÖÉ³.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(íÅÏ8ĞÚØü³.
+P
+java:S1118":Add a private constructor to hide the implicit public one.(“ĞËÏ
+Q
+java:S1128"/Remove this unused import 'java.sql.SQLOutput'.(ê¤òÃùÿÿÿÿ8×Ÿû³.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ñô¯

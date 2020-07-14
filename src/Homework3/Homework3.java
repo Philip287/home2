@@ -39,6 +39,8 @@ public class Homework3 {
 
         System.out.format("Hello!!! Your are %s %s! your year of birth %d!", firstName, secondtName, year);
 
+//Разбить строку на отдельные слова и посчитать количество вхождений для каждого слова.
+// - через split - будет считать разделителем пробел
 
     }
 
