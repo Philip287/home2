@@ -1,6 +1,7 @@
 package Homework3;
 
-import java.sql.SQLOutput;
+
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Homework3 {
@@ -41,9 +42,27 @@ public class Homework3 {
 
 //Разбить строку на отдельные слова и посчитать количество вхождений для каждого слова.
 // - через split - будет считать разделителем пробел
+        System.out.println();
+        String string = "Клара украла у Карла какралы а Карл у Клары украл кларнет";
+        System.out.println("Проверяемая строка: " + string);
+        String stringLowerCase = string.toLowerCase();
+        String zero = " ";
 
+        String[] arrString = stringLowerCase.split(zero);
+        Arrays.sort(arrString);
+
+
+        for (int i = 0; i < arrString.length; ) {
+            String copy = arrString[i];
+            int count = 1;
+
+            while (++i < arrString.length && arrString[i].equals(copy))
+                ++count;
+
+            System.out.println(copy + " -  " + count);
+
+        }
     }
-
 }
 
 
