@@ -1,0 +1,10 @@
+
+A
+java:S1172"+Remove this unused method parameter "args".(Çµí‘
+R
+java:S1854"7Remove this useless assignment to local variable "lab".(úÎ“¡ÿÿÿÿÿ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(àªÅö
+S	java:S106"9Replace this use of System.out or System.err by a logger.(½¦´¥øÿÿÿÿ
+V
+java:S1854";Remove this useless assignment to local variable "shapord".(ÓæÑðúÿÿÿÿ

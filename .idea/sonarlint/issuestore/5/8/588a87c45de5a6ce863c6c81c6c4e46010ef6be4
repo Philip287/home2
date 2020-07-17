@@ -1,25 +1,27 @@
 
-Z
-java:S1854"=Remove this useless assignment to local variable "znachenie".(•÷Ô±8¡îÖÉ³.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ú³±úÿÿÿÿ8ÐÃÓú³.
-U	java:S106%"9Replace this use of System.out or System.err by a logger.(¬ý®‘8ÐÚØü³.
-S
-java:S1854"6Remove this useless assignment to local variable "in".(äÆ¾Ó8µ¿Øü³.
-U	java:S106""9Replace this use of System.out or System.err by a logger.(÷é›­8ÐÚØü³.
-H
-java:S1172"+Remove this unused method parameter "args".(Çµí‘8â–Ù¿³.
-`
-java:S1854">Remove this useless assignment to local variable "STR_LENGTH".(•þ»Ûúÿÿÿÿ8â–Ù¿³.
-U	java:S106("9Replace this use of System.out or System.err by a logger.(úêÊ½8ÐÚØü³.
-X
-java:S1854"6Remove this useless assignment to local variable "sc".(ðÛ²¸øÿÿÿÿ8ÐŠœû³.
-Z
-java:S1854&"8Remove this useless assignment to local variable "year".(¹ÒŠ®ýÿÿÿÿ8ÐÚØü³.
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•þ»Ûúÿÿÿÿ8¡îÖÉ³.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(¨—êù8¡îÖÉ³.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(žíÅÏ8ÐÚØü³.
-P
-java:S1118":Add a private constructor to hide the implicit public one.(“ÐËÏ
-Q
-java:S1128"/Remove this unused import 'java.sql.SQLOutput'.(ê¤òÃùÿÿÿÿ8×Ÿû³.
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ñô¯
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(úêÊ½8ÐÚØü³.
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8ÑüÔó´.
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(¬ý®‘8ÐÚØü³.
+Z
+java:S1854"=Remove this useless assignment to local variable "znachenie".(•÷Ô±8¡îÖÉ³.
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(÷é›­8ÐÚØü³.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•þ»Ûúÿÿÿÿ8¡îÖÉ³.
+S
+java:S1854"6Remove this useless assignment to local variable "in".(äÆ¾Ó8µ¿Øü³.
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(–çÁúÿÿÿÿ8ÑüÔó´.
+y	java:S127;"XRefactor the code in order to not assign to this loop counter from within the loop body.(¾žÕêþÿÿÿÿ8ÑüÔó´.
+P
+java:S1118":Add a private constructor to hide the implicit public one.(“ÐËÏ
+Z
+java:S1854'"8Remove this useless assignment to local variable "year".(¹ÒŠ®ýÿÿÿÿ8ÐÚØü³.
+H
+java:S1172"+Remove this unused method parameter "args".(Çµí‘8â–Ù¿³.
+X
+java:S1854"6Remove this useless assignment to local variable "sc".(ðÛ²¸øÿÿÿÿ8ÐŠœû³.
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(žíÅÏ8ÐÚØü³.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¨—êù8¡îÖÉ³.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ú³±úÿÿÿÿ8ÐÃÓú³.
+Z	java:S106>"9Replace this use of System.out or System.err by a logger.(È™ –þÿÿÿÿ8ÑüÔó´.
+`
+java:S1854">Remove this useless assignment to local variable "STR_LENGTH".(•þ»Ûúÿÿÿÿ8â–Ù¿³.
