@@ -1,6 +1,6 @@
 package Homework5.innerclasses;
 
-public class mobile {
+public class Mobile {
     private Display display;
     private Battary battary;
     private Camera camera;
@@ -24,10 +24,10 @@ public class mobile {
         battary.showBattaryEmpty();
     }
 
-    public mobile(Display display, Battary battary, Camera camera, Identifier identifier, Switcher switcher) {
-        this.display = display;
-        this.battary = battary;
-        this.camera = camera;
+    public Mobile(boolean Display,boolean Battary,boolean Camera, Identifier identifier, Switcher switcher) {
+        this.display = new Display(Display);
+        this.battary = new Battary(Battary);
+        this.camera = new Camera(Camera);
         this.identifier = identifier;
         this.switcher = switcher;
     }
