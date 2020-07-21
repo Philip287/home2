@@ -9,10 +9,10 @@ public class StringIdentifier extends Identifier<String> {
     @Override
     public String getMobileReadableString() {
         try {
-            return "" + (Integer.parseInt(id) + 1);
+           return "" + (Integer.parseInt(id) + 1);
         } catch (NumberFormatException e) {
             System.out.println("Exception during parsing id as integer." + e);
-            return super.getMobileReadableString();
+        return super.getMobileReadableString();
         }
     }
 

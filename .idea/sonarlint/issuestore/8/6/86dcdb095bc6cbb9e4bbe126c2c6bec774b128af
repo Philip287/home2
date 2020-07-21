@@ -1,0 +1,10 @@
+
+X
+java:S1854";Remove this useless assignment to local variable "siemens".(ì•üÍ8º›Ñƒ·.
+\
+java:S1118":Add a private constructor to hide the implicit public one.(ã±›üÿÿÿÿ8ØĞçƒ·.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îúÒíøÿÿÿÿ
+]	java:S125"<This block of commented-out lines of code should be removed.(âÂÿÊøÿÿÿÿ8Üû¢„·.
+H
+java:S1172"+Remove this unused method parameter "args".(Çµí‘8Éá¿ƒ·.
+X	java:S125"<This block of commented-out lines of code should be removed.(›‚±Ó8Üû¢„·.

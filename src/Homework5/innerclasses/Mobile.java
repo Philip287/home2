@@ -8,15 +8,16 @@ public class Mobile {
     public Switcher switcher;
 
     enum Switcher {ON, OFF, BLOCK}
-    public void SwitcherMobile(Switcher name){
-        if(name == Switcher.ON){
+
+    public void SwitcherMobile(Switcher name) {
+        if (name == Switcher.ON) {
             display.isOn = true;
             battary.isEmpty = false;
 
-        } else if(name == Switcher.OFF ) {
+        } else if (name == Switcher.OFF) {
             display.isOn = false;
             battary.isEmpty = true;
-        } else{
+        } else {
             display.isOn = false;
             battary.isEmpty = false;
         }
@@ -24,7 +25,7 @@ public class Mobile {
         battary.showBattaryEmpty();
     }
 
-    public Mobile(boolean Display,boolean Battary,boolean Camera, Identifier identifier, Switcher switcher) {
+    public Mobile(boolean Display, boolean Battary, boolean Camera, Identifier identifier, Switcher switcher) {
         this.display = new Display(Display);
         this.battary = new Battary(Battary);
         this.camera = new Camera(Camera);
@@ -32,12 +33,15 @@ public class Mobile {
         this.switcher = switcher;
     }
 
-        public void showInnerState() {
-        display.showDisplayOn ();
+    public void showInnerState() {
+        display.showDisplayOn();
         battary.showBattaryEmpty();
         camera.showCameraPresence();
-        System.out.println(identifier.getMobileReadableString());
+
+        System.out.println(identifier.getMobileReadableString().toString());
+
     }
+
     private class Display {
 
         private boolean isOn;
@@ -54,6 +58,7 @@ public class Mobile {
             return isOn;
         }
     }
+
     private class Battary {
 
         private boolean isEmpty;
@@ -70,6 +75,7 @@ public class Mobile {
             return isEmpty;
         }
     }
+
     private class Camera {
 
         private boolean isPresent;
@@ -79,7 +85,13 @@ public class Mobile {
         }
 
         public void showCameraPresence() {
-            System.out.println(String.format("Camera is %present", isPresent ? "" : "not "));
+            //System.out.println(String.format("Camera is %present", isPresent ? "" : "not "));
+            if (isPresent == true) {
+                System.out.println("Camera is present");
+            } else {
+                System.out.println("Camera is not present");
+            }
+
         }
 
         public boolean isPresent() {

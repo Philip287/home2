@@ -1,7 +1,6 @@
 package Homework5.innerclasses;
 
-public class Homework5
-{
+public class Homework5 {
     public static void main(String[] args) {
 
         Identifier<String> stringIdentifier = new StringIdentifier("321");
