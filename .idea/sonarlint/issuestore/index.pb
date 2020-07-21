@@ -20,7 +20,9 @@ Q
 !src/Homework4/model/gemStone.java,5\4\54b4d028263d530c48c7e9572e8d6670e7e669b8
 L
 src/Homework4/Homework4.java,c\9\c93fbfd3dcb7efb5ada9fc596da9ddd0c0152768
-A
-src/уч/car.java,5\8\58f2b495d658443ed0ba69d3176f97ba6bf13eb0
-A
-src/уч/app.java,9\a\9a80e735ef2353be727151ee04f6ec31f8c6bc0f
+Z
+*src/Homework5/annotations/annotations.java,d\4\d4071b23c2fa5b489075438706c10a770ba59cc8
+[
++src/Homework5/annotations/ExampleClass.java,b\c\bc7decaabee58b7c86ffa145202addd4263aaef2
+T
+$src/Homework5/innerclasses/main.java,d\e\de26d7c041b0401289c6d9a989a595bec1c4f34c
