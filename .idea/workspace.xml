@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a50be8a7-13d5-4063-b500-86b46d2b7565" name="Default Changelist" comment="домашняя 2">
-      <change afterPath="$PROJECT_DIR$/src/Homework6/Homework6Ex2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/588a87c45de5a6ce863c6c81c6c4e46010ef6be4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/588a87c45de5a6ce863c6c81c6c4e46010ef6be4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7ecaa65ee3b09e2c9607e8730293dc93dfc368f4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7ecaa65ee3b09e2c9607e8730293dc93dfc368f4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/8635c8f7676e4d28bbe9ba6f91afae094bd284d4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/8635c8f7676e4d28bbe9ba6f91afae094bd284d4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86dcdb095bc6cbb9e4bbe126c2c6bec774b128af" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86dcdb095bc6cbb9e4bbe126c2c6bec774b128af" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework6/Hemework6Ex4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework6/Hemework6Ex4.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Homework6/Hpmework6Ex3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="38" selection-end-column="31" />
+            <state relative-caret-position="350">
+              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,11 +53,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Homework6/Hemework6Ex4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="1938">
+              <caret line="114" column="19" lean-forward="true" selection-start-line="114" selection-start-column="19" selection-end-line="114" selection-end-column="19" />
+              <folding>
+                <element signature="e#168#176#0" expanded="true" />
+                <element signature="e#250#258#0" expanded="true" />
+                <element signature="e#337#354#0" expanded="true" />
+                <element signature="e#437#454#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,10 +122,11 @@
         <option value="$PROJECT_DIR$/src/Homework6/Homework6Ex1.java" />
         <option value="$PROJECT_DIR$/src/Homework6/Homework6Ex2.java" />
         <option value="$PROJECT_DIR$/src/Homework6/Hpmework6Ex3.java" />
+        <option value="$PROJECT_DIR$/src/Homework6/Hemework6Ex4.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="23" />
     <option name="y" value="65" />
     <option name="width" value="784" />
@@ -206,13 +208,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Hpmework6Ex3">
-    <configuration name="Homework4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework4.Homework4" />
+  <component name="RunManager" selected="Application.Hemework6Ex4">
+    <configuration name="Hemework6Ex4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework6.Hemework6Ex4" />
       <module name="Домашка2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework4.*" />
+          <option name="PATTERN" value="Homework6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -274,11 +276,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Hemework6Ex4" />
         <item itemvalue="Application.Hpmework6Ex3" />
         <item itemvalue="Application.Homework6Ex2" />
         <item itemvalue="Application.Homework6Ex1" />
         <item itemvalue="Application.Homework5" />
-        <item itemvalue="Application.Homework4" />
       </list>
     </recent_temporary>
   </component>
@@ -320,10 +322,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1580938" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1580938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -333,13 +335,13 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.32843137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.22712418" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.22712418" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.32843137" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32843137" />
       <window_info active="true" anchor="bottom" id="SVN Repositories" order="10" visible="true" weight="0.32843137" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32843137" />
@@ -652,13 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Homework6/Hemework6Ex4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Homework6/Homework6Ex2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -681,10 +676,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Homework6/Hpmework6Ex3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="38" selection-end-column="31" />
+        <state relative-caret-position="350">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Homework6/Hemework6Ex4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1938">
+          <caret line="114" column="19" lean-forward="true" selection-start-line="114" selection-start-column="19" selection-end-line="114" selection-end-column="19" />
+          <folding>
+            <element signature="e#168#176#0" expanded="true" />
+            <element signature="e#250#258#0" expanded="true" />
+            <element signature="e#337#354#0" expanded="true" />
+            <element signature="e#437#454#0" expanded="true" />
           </folding>
         </state>
       </provider>
