@@ -1,9 +1,9 @@
 
-r
-java:S1905"VRemove this unnecessary cast to "org.sonar.java.resolve.Symbols$UnknownType@1421af41".(ŸÌ›8¥ê–ß·.
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ä¥×òøÿÿÿÿ
-H
-java:S1172"+Remove this unused method parameter "args".(Çµí‘8‚Ñ€ß·.
 Z	java:S106"9Replace this use of System.out or System.err by a logger.(‰µþêûÿÿÿÿ8¥ê–ß·.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ä¥×òøÿÿÿÿ
 \
 java:S1118":Add a private constructor to hide the implicit public one.(ÅžÁËüÿÿÿÿ8‚Ñ€ß·.
+r
+java:S1905"VRemove this unnecessary cast to "org.sonar.java.resolve.Symbols$UnknownType@116f721f".(ŸÌ›8¥ê–ß·.
+H
+java:S1172"+Remove this unused method parameter "args".(Çµí‘8‚Ñ€ß·.

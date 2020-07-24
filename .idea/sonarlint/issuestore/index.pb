@@ -38,3 +38,5 @@ O
 src/Homework6/Homework6Ex2.java,4\2\4266ce4c61f6e400730f536ac0a5297ef6327b1a
 O
 src/Homework6/Hpmework6Ex3.java,9\9\99c835b16ce1cdf5081d6ec228df21d14e8f58e4
+O
+src/Homework6/Hemework6Ex4.java,6\0\60fc5e1c6b5b7a8cab62d856bb7011644bcc453a
