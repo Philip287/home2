@@ -1,19 +1,19 @@
 
-Y
-java:S1854"7Remove this useless assignment to local variable "add".(Á ğıÿÿÿÿ8…š á·.
-\
-java:S1854":Remove this useless assignment to local variable "chislo".(¹ùÖëøÿÿÿÿ8…š á·.
-Z	java:S106-"9Replace this use of System.out or System.err by a logger.(­í¿õøÿÿÿÿ8Œ±İá·.
-Z	java:S106."9Replace this use of System.out or System.err by a logger.(ÀÀ¹şÿÿÿÿ8Šªá·.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(¦å±Ñ8²ıÈà·.
-U	java:S106'"9Replace this use of System.out or System.err by a logger.(ÎØ¯8Œ±İá·.
-H
-java:S1172"+Remove this unused method parameter "args".(Çµí‘8ÙĞ¤à·.
 J
 java:S1481"(Remove this unused "add" local variable.(Á ğıÿÿÿÿ8…š á·.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ä¥×òøÿÿÿÿ
 J
 java:S1125"(Remove the literal "true" boolean value.(İÛ¿µøÿÿÿÿ8…š á·.
-U	java:S106%"9Replace this use of System.out or System.err by a logger.(î¢‹š8Šªá·.
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ä¥×òøÿÿÿÿ
+Y
+java:S1854"7Remove this useless assignment to local variable "add".(Á ğıÿÿÿÿ8…š á·.
+Z	java:S106."9Replace this use of System.out or System.err by a logger.(ÀÀ¹şÿÿÿÿ8Šªá·.
+H
+java:S1172"+Remove this unused method parameter "args".(Çµí‘8ÙĞ¤à·.
 V
 java:S1118":Add a private constructor to hide the implicit public one.(«Ö…g8ÙĞ¤à·.
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(­í¿õøÿÿÿÿ8Œ±İá·.
+\
+java:S1854":Remove this useless assignment to local variable "chislo".(¹ùÖëøÿÿÿÿ8…š á·.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¦å±Ñ8²ıÈà·.
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(î¢‹š8Šªá·.
+U	java:S106'"9Replace this use of System.out or System.err by a logger.(ÎØ¯8Œ±İá·.
