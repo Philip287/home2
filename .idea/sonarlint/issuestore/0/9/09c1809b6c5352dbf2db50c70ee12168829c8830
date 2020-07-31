@@ -1,0 +1,9 @@
+
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì¥{
+o	java:S116	"SRename this field "NameBook" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Şº¥Š8 á„©º.
+]	java:S125C"<This block of commented-out lines of code should be removed.(µÌ‡ßùÿÿÿÿ8®Ã»ªº.
+m	java:S128>"LEnd this switch case with an unconditional break, return or throw statement.(œÉ¨£ÿÿÿÿÿ8·Ü¹ªº.
+h	java:S128<"LEnd this switch case with an unconditional break, return or throw statement.(í¤éü8ÿ†·ªº.
+s	java:S116"RRename this field "Science" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â¢ó¤ÿÿÿÿÿ8Û·ºªº.
+r	java:S116
+"QRename this field "IdBook" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Úõ©Âıÿÿÿÿ8”ƒ©º.

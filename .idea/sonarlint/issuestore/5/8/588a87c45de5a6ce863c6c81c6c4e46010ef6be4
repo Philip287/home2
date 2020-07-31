@@ -1,27 +1,15 @@
 
-`
-java:S1854">Remove this useless assignment to local variable "STR_LENGTH".(•ş»Ûúÿÿÿÿ8â–Ù¿³.
-S
-java:S1854"6Remove this useless assignment to local variable "in".(äÆ¾Ó8µ¿Øü³.
-Z	java:S106/"9Replace this use of System.out or System.err by a logger.(–çÁúÿÿÿÿ8ÑüÔó´.
-X
-java:S1854"6Remove this useless assignment to local variable "sc".(ğÛ²¸øÿÿÿÿ8ĞŠœû³.
-Z
-java:S1854'"8Remove this useless assignment to local variable "year".(¹ÒŠ®ıÿÿÿÿ8ĞÚØü³.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ú³±úÿÿÿÿ8ĞÃÓú³.
-P
-java:S1118":Add a private constructor to hide the implicit public one.(“ĞËÏ
-U	java:S106"9Replace this use of System.out or System.err by a logger.(¨—êù8¡îÖÉ³.
-H
-java:S1172"+Remove this unused method parameter "args".(Çµí‘8â–Ù¿³.
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ş»Ûúÿÿÿÿ8¡îÖÉ³.
 U	java:S106#"9Replace this use of System.out or System.err by a logger.(÷é›­8ĞÚØü³.
-U	java:S106&"9Replace this use of System.out or System.err by a logger.(¬ı®‘8ĞÚØü³.
+F
+java:S2140")Use "java.util.Random.nextInt()" instead.(•÷Ô±8‰Ö…‚º.
+Z	java:S106>"9Replace this use of System.out or System.err by a logger.(È™ –şÿÿÿÿ8ÑüÔó´.
 U	java:S106 "9Replace this use of System.out or System.err by a logger.(íÅÏ8ĞÚØü³.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ş»Ûúÿÿÿÿ8¡îÖÉ³.
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(–çÁúÿÿÿÿ8ÑüÔó´.
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(úêÊ½8ĞÚØü³.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¨—êù8¡îÖÉ³.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ú³±úÿÿÿÿ8ĞÃÓú³.
 Z	java:S106-"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ÑüÔó´.
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ñô¯
-U	java:S106)"9Replace this use of System.out or System.err by a logger.(úêÊ½8ĞÚØü³.
-Z
-java:S1854"=Remove this useless assignment to local variable "znachenie".(•÷Ô±8¡îÖÉ³.
-Z	java:S106>"9Replace this use of System.out or System.err by a logger.(È™ –şÿÿÿÿ8ÑüÔó´.
 y	java:S127;"XRefactor the code in order to not assign to this loop counter from within the loop body.(¾Õêşÿÿÿÿ8ÑüÔó´.
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(¬ı®‘8ĞÚØü³.

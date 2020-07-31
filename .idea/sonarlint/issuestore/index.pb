@@ -40,5 +40,13 @@ O
 src/Homework6/Hpmework6Ex3.java,9\9\99c835b16ce1cdf5081d6ec228df21d14e8f58e4
 O
 src/Homework6/Hemework6Ex4.java,6\0\60fc5e1c6b5b7a8cab62d856bb7011644bcc453a
+K
+src/Homework7/Category.java,d\1\d11d31a88cf2b5184cda33e10839e9c623af9f97
+G
+src/Homework7/Book.java,0\9\09c1809b6c5352dbf2db50c70ee12168829c8830
+K
+src/Homework7/Exeption.java,e\2\e284a9a0fa20afd77f9cfb9b910731991217e3fe
+Y
+)src/Homework7/InvalidIdBookException.java,3\4\342cc16867266c0a6cd2b9b5226d38f6b4213dbc
 L
-src/Homework7/Homework7.java,c\9\c9286e6df60163104c2e089d409a195f3bdb7800
+src/Homework7/BookShelf.java,a\d\ada2e36edf1d3cc1efb23247c864294a03351274
