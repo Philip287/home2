@@ -20,30 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a50be8a7-13d5-4063-b500-86b46d2b7565" name="Default Changelist" comment="домашняя 2">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/09c1809b6c5352dbf2db50c70ee12168829c8830" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/342cc16867266c0a6cd2b9b5226d38f6b4213dbc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ada2e36edf1d3cc1efb23247c864294a03351274" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d11d31a88cf2b5184cda33e10839e9c623af9f97" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e284a9a0fa20afd77f9cfb9b910731991217e3fe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework7/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework7/BookShelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework7/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework7/Exeption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework7/InvalidIdBookException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/54b4d028263d530c48c7e9572e8d6670e7e669b8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/54b4d028263d530c48c7e9572e8d6670e7e669b8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/588a87c45de5a6ce863c6c81c6c4e46010ef6be4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/588a87c45de5a6ce863c6c81c6c4e46010ef6be4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6ed64fc7491eb421dc8b43c6fd422193f58af0a7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6ed64fc7491eb421dc8b43c6fd422193f58af0a7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c9286e6df60163104c2e089d409a195f3bdb7800" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c93fbfd3dcb7efb5ada9fc596da9ddd0c0152768" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c93fbfd3dcb7efb5ada9fc596da9ddd0c0152768" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework7/InvalidIdCategoryException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/09c1809b6c5352dbf2db50c70ee12168829c8830" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/09c1809b6c5352dbf2db50c70ee12168829c8830" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/342cc16867266c0a6cd2b9b5226d38f6b4213dbc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/342cc16867266c0a6cd2b9b5226d38f6b4213dbc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ada2e36edf1d3cc1efb23247c864294a03351274" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ada2e36edf1d3cc1efb23247c864294a03351274" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d11d31a88cf2b5184cda33e10839e9c623af9f97" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d11d31a88cf2b5184cda33e10839e9c623af9f97" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e284a9a0fa20afd77f9cfb9b910731991217e3fe" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e284a9a0fa20afd77f9cfb9b910731991217e3fe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Домашка2/Fil/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Домашка2/Fil/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework7/Computer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework7/Homework7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework7/Interface/CoumputerState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework7/laptop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework7/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework7/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework7/BookShelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework7/BookShelf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework7/Exeption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework7/Exeption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework7/InvalidIdBookException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework7/InvalidIdBookException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,12 +63,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Homework7" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Java\программы\Домашка2" />
       <recent name="D:\Java\программы\Домашка2\src" />
@@ -188,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594299618197</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="домашняя 2">
+      <created>1596213308151</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596213308151</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,18 +212,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1596134621616" />
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1596204366094">
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1596459876733">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1596204366094" />
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1596459876733" />
+    <state x="466" y="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1596459217302">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="466" y="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.728@0.0.1366.728" timestamp="1596459217302" />
     <state x="424" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596203773587">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="424" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1596203773587" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596202748061">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596465378136">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1596202748061" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1596465378136" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1596213180580">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -265,10 +268,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596213202591" />
-    <state x="65" y="0" key="new project wizard" timestamp="1596210147671">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1596213314023">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1596210147671" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596213314023" />
+    <state x="65" y="0" key="new project wizard" timestamp="1596216384925">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1596216384925" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1596203980551">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -69,7 +69,7 @@ public class BookShelf {
     public Book getBook() {
         if (Books.size() == 0) {
             return null;
-//                throw new InvalidCarNameException(nameFromUser);
+            throw new InvalidIdGetBooksException(nameFromUser);
         } else {
             return Books.remove(Books.size() - 1);
         }

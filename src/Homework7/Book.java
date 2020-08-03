@@ -52,9 +52,20 @@ public class Book {
                 ", category=" + category
                 ;
     }
-    public void newBook (Scanner scanner){
+
+    public void newBook(Scanner scanner) throws InvalidIdBookException {
+        System.out.print("Enter your NameBook: ");
         NameBook = scanner.nextLine();
-        IdBook = scanner.nextInt();
+
+
+        System.out.print("Enter your Id Book: ");
+        try {
+            IdBook = scanner.nextInt();
+        } catch (Exception e) {
+        throw new InvalidIdBookException();
+        e.printStackTrace();
+    }
+        System.out.println("Enter your category book: ");
         String nameFromUser = scanner.next();
         switch (nameFromUser) {
             case "Philosophy":
@@ -63,10 +74,10 @@ public class Book {
                 category = Science;
             case "History":
                 category = History;
-            default:
-//                throw new InvalidCarNameException(nameFromUser);
+            default: {
+                throw new InvalidGetIdException();
+                e.printStackTrace();
         }
-
 
     }
 }

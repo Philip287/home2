@@ -50,3 +50,11 @@ Y
 )src/Homework7/InvalidIdBookException.java,3\4\342cc16867266c0a6cd2b9b5226d38f6b4213dbc
 L
 src/Homework7/BookShelf.java,a\d\ada2e36edf1d3cc1efb23247c864294a03351274
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+]
+-src/Homework7/InvalidIdCategoryException.java,4\b\4b472c463abb556af4c1acf70aa8baa61d0cd191
+]
+-src/Homework7/InvalidIdGetBooksException.java,b\d\bd592a0c6271db9b8263e15e2387eea486bf7fdd
