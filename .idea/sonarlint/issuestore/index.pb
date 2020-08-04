@@ -58,3 +58,9 @@ S
 -src/Homework7/InvalidIdCategoryException.java,4\b\4b472c463abb556af4c1acf70aa8baa61d0cd191
 ]
 -src/Homework7/InvalidIdGetBooksException.java,b\d\bd592a0c6271db9b8263e15e2387eea486bf7fdd
+F
+src/Homework8/Ex3.java,7\c\7c7766482c9d873c44b3c3ffbbbc1d1dd76a6a2d
+F
+src/Homework8/Ex1.java,7\3\7366dd651f29c1bafbf33fbca45c9d49b56df145
+F
+src/Homework8/Ex2.java,b\9\b9b52ae2d83e50ab035fc0f921372c49491b3ade

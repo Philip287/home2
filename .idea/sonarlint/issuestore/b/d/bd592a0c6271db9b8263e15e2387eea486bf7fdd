@@ -1,6 +1,6 @@
 
-^
-java:S2166"CRename this class to remove "Exception" or correct its inheritance.(êí¥—ùÿÿÿÿ
 ]
 java:S2094"BRemove this empty class, write its code or make it an "interface".(êí¥—ùÿÿÿÿ
 n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì¥{
+^
+java:S2166"CRename this class to remove "Exception" or correct its inheritance.(êí¥—ùÿÿÿÿ

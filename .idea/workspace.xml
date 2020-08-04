@@ -20,18 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a50be8a7-13d5-4063-b500-86b46d2b7565" name="Default Changelist" comment="домашняя 2">
-      <change afterPath="$PROJECT_DIR$/src/Homework7/InvalidIdCategoryException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/09c1809b6c5352dbf2db50c70ee12168829c8830" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/09c1809b6c5352dbf2db50c70ee12168829c8830" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/342cc16867266c0a6cd2b9b5226d38f6b4213dbc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/342cc16867266c0a6cd2b9b5226d38f6b4213dbc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework7/InvalidBookException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework7/InvalidPlacementException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ada2e36edf1d3cc1efb23247c864294a03351274" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ada2e36edf1d3cc1efb23247c864294a03351274" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bd592a0c6271db9b8263e15e2387eea486bf7fdd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bd592a0c6271db9b8263e15e2387eea486bf7fdd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d11d31a88cf2b5184cda33e10839e9c623af9f97" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d11d31a88cf2b5184cda33e10839e9c623af9f97" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e284a9a0fa20afd77f9cfb9b910731991217e3fe" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e284a9a0fa20afd77f9cfb9b910731991217e3fe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework7/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework7/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework7/BookShelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework7/BookShelf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework7/Exeption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework7/Exeption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework7/InvalidIdBookException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework7/InvalidIdBookException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework7/InvalidIdBookException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework7/InvalidIdCategoryException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework7/InvalidIdGetBooksException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework7/InvalidIdGetBooksException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,12 +71,12 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="Homework7" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Java\программы\Домашка2" />
       <recent name="D:\Java\программы\Домашка2\src" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Homework7" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Exeption">
@@ -224,46 +225,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="424" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1596203773587" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596465378136">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596545802834">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1596465378136" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1596545802834" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1596213180580">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596213180580" />
-    <state width="1323" height="222" key="GridCell.Tab.0.bottom" timestamp="1596207965607">
+    <state width="1323" height="222" key="GridCell.Tab.0.bottom" timestamp="1596551296041">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596207965607" />
-    <state width="1323" height="222" key="GridCell.Tab.0.center" timestamp="1596207965607">
+    <state width="1323" height="222" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596551296041" />
+    <state width="1323" height="222" key="GridCell.Tab.0.center" timestamp="1596551296040">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596207965607" />
-    <state width="1323" height="222" key="GridCell.Tab.0.left" timestamp="1596207965606">
+    <state width="1323" height="222" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596551296040" />
+    <state width="1323" height="222" key="GridCell.Tab.0.left" timestamp="1596551296040">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596207965606" />
-    <state width="1323" height="222" key="GridCell.Tab.0.right" timestamp="1596207965607">
+    <state width="1323" height="222" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596551296040" />
+    <state width="1323" height="222" key="GridCell.Tab.0.right" timestamp="1596551296041">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596207965607" />
-    <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1596207965607">
+    <state width="1323" height="222" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596551296041" />
+    <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1596551294158">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596207965607" />
-    <state width="1323" height="222" key="GridCell.Tab.1.center" timestamp="1596207965607">
+    <state width="1323" height="222" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596551294158" />
+    <state width="1323" height="222" key="GridCell.Tab.1.center" timestamp="1596551294158">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1596207965607" />
-    <state width="1323" height="222" key="GridCell.Tab.1.left" timestamp="1596207965607">
+    <state width="1323" height="222" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1596551294158" />
+    <state width="1323" height="222" key="GridCell.Tab.1.left" timestamp="1596551294157">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1596207965607" />
-    <state width="1323" height="222" key="GridCell.Tab.1.right" timestamp="1596207965607">
+    <state width="1323" height="222" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1596551294157" />
+    <state width="1323" height="222" key="GridCell.Tab.1.right" timestamp="1596551294158">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1596207965607" />
+    <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1596551294158" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1596213202591">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -300,10 +301,23 @@
           </properties>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Homework7/Exeption.java</url>
+          <line>14</line>
+          <properties class="Homework7.Exeption" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Homework6/Hpmework6Ex3.java</url>
           <line>26</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Homework7/Exeption.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

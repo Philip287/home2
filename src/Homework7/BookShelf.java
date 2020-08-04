@@ -57,19 +57,21 @@ public class BookShelf {
                 ", Books=" + Books;
     }
 
-    public void placement(Book book) {
-        if (category == book.getCategory() & Books.size() == numberOfBook) {
-//                throw new InvalidCarNameException(nameFromUser);
+    public void placement(Book book) throws InvalidPlacementException {
+
+        if (Books.size() == numberOfBook) {
+            throw new InvalidPlacementException("Size is full");
+        } else if (category != book.getCategory()) {
+            throw new InvalidPlacementException("Invalid parametrs");
         } else {
             Books.add(book);
         }
 
     }
 
-    public Book getBook() {
+    public Book getBook() throws InvalidIdGetBooksException {
         if (Books.size() == 0) {
-            return null;
-            throw new InvalidIdGetBooksException(nameFromUser);
+            throw new InvalidIdGetBooksException();
         } else {
             return Books.remove(Books.size() - 1);
         }

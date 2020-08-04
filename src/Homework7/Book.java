@@ -53,7 +53,7 @@ public class Book {
                 ;
     }
 
-    public void newBook(Scanner scanner) throws InvalidIdBookException {
+    public void newBook(Scanner scanner) throws InvalidBookException{
         System.out.print("Enter your NameBook: ");
         NameBook = scanner.nextLine();
 
@@ -62,9 +62,9 @@ public class Book {
         try {
             IdBook = scanner.nextInt();
         } catch (Exception e) {
-        throw new InvalidIdBookException();
-        e.printStackTrace();
-    }
+            throw new InvalidBookException();
+
+        }
         System.out.println("Enter your category book: ");
         String nameFromUser = scanner.next();
         switch (nameFromUser) {
@@ -75,9 +75,10 @@ public class Book {
             case "History":
                 category = History;
             default: {
-                throw new InvalidGetIdException();
-                e.printStackTrace();
-        }
+               throw new InvalidBookException();
 
+            }
+
+        }
     }
 }

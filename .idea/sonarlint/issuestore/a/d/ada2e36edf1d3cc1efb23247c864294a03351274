@@ -1,12 +1,12 @@
 
 n	java:S116	"RRename this field "IdShelf" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛÚÒ®8Ë¸©º.
-
-java:S1319"pThe type of the "books" object should be an interface such as "List" rather than the implementation "ArrayList".(ìªÄ£8î¡¶©º.
-n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì¥{
 ’
 java:S1319+"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(îò¿ïúÿÿÿÿ8†œ·©º.
-]	java:S125>"<This block of commented-out lines of code should be removed.(µÌ‡ßùÿÿÿÿ8úÌýªº.
-’
-java:S1319/"pThe type of the "books" object should be an interface such as "List" rather than the implementation "ArrayList".(êáªÔúÿÿÿÿ8†œ·©º.
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì¥{
 q	java:S116
 "PRename this field "Books" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦È·Ÿùÿÿÿÿ8Òù³©º.
+
+java:S1319"pThe type of the "books" object should be an interface such as "List" rather than the implementation "ArrayList".(ìªÄ£8î¡¶©º.
+’
+java:S1319/"pThe type of the "books" object should be an interface such as "List" rather than the implementation "ArrayList".(êáªÔúÿÿÿÿ8†œ·©º.
+]	java:S125>"<This block of commented-out lines of code should be removed.(µÌ‡ßùÿÿÿÿ8úÌýªº.
