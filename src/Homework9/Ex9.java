@@ -1,20 +1,34 @@
 package Homework9;
 
 import java.time.LocalDateTime;
+import java.util.Date;
 
 public class Ex9 {
+    private int numberTask;
     private String NameOfTask;
     private String Category;
-    private int priority;
-    private LocalDateTime dateOfPlan;
+    private Priority priority;
+    private Date dateOfPlan;
     private LocalDateTime dateNow;
 
-    public Ex9(String nameOfTask, String category, int priority, LocalDateTime dateOfPlan, LocalDateTime dateNow) {
+    public Ex9(int numberTask, String nameOfTask, String category, Priority priority, Date dateOfPlan, LocalDateTime dateNow) {
+        this.numberTask = numberTask;
         NameOfTask = nameOfTask;
         Category = category;
         this.priority = priority;
         this.dateOfPlan = dateOfPlan;
         this.dateNow = dateNow;
+    }
+
+    public Ex9() {
+    }
+
+    public int getNumberTask() {
+        return numberTask;
+    }
+
+    public void setNumberTask(int numberTask) {
+        this.numberTask = numberTask;
     }
 
     public String getNameOfTask() {
@@ -33,19 +47,19 @@ public class Ex9 {
         Category = category;
     }
 
-    public int getPriority() {
+    public Priority getPriority() {
         return priority;
     }
 
-    public void setPriority(int priority) {
+    public void setPriority(Priority priority) {
         this.priority = priority;
     }
 
-    public LocalDateTime getDateOfPlan() {
+    public Date getDateOfPlan() {
         return dateOfPlan;
     }
 
-    public void setDateOfPlan(LocalDateTime dateOfPlan) {
+    public void setDateOfPlan(Date dateOfPlan) {
         this.dateOfPlan = dateOfPlan;
     }
 
@@ -60,12 +74,12 @@ public class Ex9 {
     @Override
     public String toString() {
         return "Ex9" +
-                "NameOfTask='" + NameOfTask +
+                "numberTask=" + numberTask +
+                ", NameOfTask='" + NameOfTask +
                 ", Category='" + Category +
                 ", priority=" + priority +
                 ", dateOfPlan=" + dateOfPlan +
                 ", dateNow=" + dateNow;
     }
-
 }
 
