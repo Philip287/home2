@@ -1,4 +1,4 @@
-package нomework8;
+package Homework8;
 
 public class Ex3 {
 

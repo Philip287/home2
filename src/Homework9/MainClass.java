@@ -1,8 +1,5 @@
-package нomework9;
+package Homework9;
 
-import com.sun.org.apache.bcel.internal.generic.SWITCH;
-
-import javax.xml.ws.Service;
 import java.util.List;
 import java.util.Objects;
 import java.util.Scanner;
@@ -36,7 +33,10 @@ public class MainClass {
                         .forEach(System.out::println);
                 break;
             case 2:
-
+                List<Ex9> services = resp.getServices();
+                services.stream()
+                        .filter(service -> Objects.equals(service.getNameOfTask(), "0"))
+                        .forEach(System.out::println);
 
                 break;
             case 3:
