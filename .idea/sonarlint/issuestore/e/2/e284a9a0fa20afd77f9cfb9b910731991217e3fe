@@ -1,24 +1,26 @@
 
-G
-java:S1481"*Remove this unused "third" local variable.(¸½™ê8—³ã©º.
-X	java:S106"9Replace this use of System.out or System.err by a logger.(ÌÓ®—ûÿÿÿÿ8¾ƒ¶¨º.
-T	java:S106S"9Replace this use of System.out or System.err by a logger.(ÿ®Ái8¾ƒ¶¨º.
-M
-java:S1172Q"+Remove this unused method parameter "list".(¦Ğ¦üÿÿÿÿ8¾ƒ¶¨º.
-L
-java:S1481"*Remove this unused "first" local variable.(Åİˆşÿÿÿÿ8ñÛ©º.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(éÁÂ‚8•şÍ».
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(‚şøšüÿÿÿÿ8Ê‹“Í».
+Z	java:S106D"9Replace this use of System.out or System.err by a logger.(¼îÈ›ıÿÿÿÿ8‘¸Í».
+U	java:S106J"9Replace this use of System.out or System.err by a logger.(Â©ã8‘¸Í».
+T	java:S106"9Replace this use of System.out or System.err by a logger.(®°½x8¥ÍÍ».
+Z	java:S106A"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8ÇùïÎ».
 n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì¥{
-Z	java:S106'"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8¾ƒ¶¨º.
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(×ÆÅÀıÿÿÿÿ8ìŸ÷Ì».
+U	java:S106"9Replace this use of System.out or System.err by a logger.(å‰µ„8¶ÜÍ».
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÅÑÎÿÿÿÿÿ8ìŸ÷Ì».
+Z	java:S106M"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8œÓŞÍ».
+Z	java:S1062"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8©»ïÎ».
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8ŠÅÎ».
+Z	java:S106<"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8ˆäïÎ».
+Z	java:S106G"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8–É×Í».
+U	java:S106$"9Replace this use of System.out or System.err by a logger.(éÁÂ‚8˜…®Î».
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8ÁéîÎ».
+Z	java:S1067"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8’ÑïÎ».
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8šïÎ».
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆÿ±’8ìŸ÷Ì».
 M
-java:S1481"+Remove this unused "second" local variable.(ëŠÂÆşÿÿÿÿ8ûİ©º.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ùá¿Ò8¾ƒ¶¨º.
-U	java:S1060"9Replace this use of System.out or System.err by a logger.(‡£À¦8¾ƒ¶¨º.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.( ö¢ÿÿÿÿÿ8¾ƒ¶¨º.
-Z	java:S106*"9Replace this use of System.out or System.err by a logger.(¤û¹Šşÿÿÿÿ8¾ƒ¶¨º.
-U	java:S106G"9Replace this use of System.out or System.err by a logger.(Ø¨¯´8¾ƒ¶¨º.
-V
-java:S1854"9Remove this useless assignment to local variable "third".(¸½™ê8Æ¯ß©º.
-\
-java:S1854":Remove this useless assignment to local variable "second".(ëŠÂÆşÿÿÿÿ8ÍÁİ©º.
-[
-java:S1854"9Remove this useless assignment to local variable "first".(Åİˆşÿÿÿÿ8ñÛ©º.
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¨ ÊÌ».

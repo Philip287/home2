@@ -1,0 +1,20 @@
+
+N
+java:S1481",Remove this unused "result3" local variable.(š±ë¦ùÿÿÿÿ8®ÚÄ”¼.
+X
+java:S1854";Remove this useless assignment to local variable "result2".(è÷½“8®ÚÄ”¼.
+N
+java:S1481",Remove this unused "result1" local variable.(ÍÁ˜Éşÿÿÿÿ8¡¡Ã”¼.
+P
+java:S1481".Remove this unused "operation" local variable.(€íË´ûÿÿÿÿ8‰ÕÃ”¼.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Í‡óüÿÿÿÿ8ñ¿Á”¼.
+I
+java:S1481",Remove this unused "result2" local variable.(è÷½“8®ÚÄ”¼.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(«Åäûÿÿÿÿ8Ç–›”¼.
+0
+java:S1220""Move this file to a named package.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(†š‰°şÿÿÿÿ8ñ¿Á”¼.
+]
+java:S1854";Remove this useless assignment to local variable "result3".(š±ë¦ùÿÿÿÿ8®ÚÄ”¼.
+]
+java:S1854";Remove this useless assignment to local variable "result1".(ÍÁ˜Éşÿÿÿÿ8ÜöÁ”¼.

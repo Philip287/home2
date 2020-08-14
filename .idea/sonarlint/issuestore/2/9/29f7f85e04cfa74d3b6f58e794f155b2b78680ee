@@ -1,0 +1,14 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ìü“8±â¡Â¼.
+D
+java:S1905("'Remove this unnecessary cast to "List".(İ“‡Ş8•ëºÊ¼.
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(§¥ùç8Åµ¾È¼.
+E
+java:S1604"(Make this anonymous inner class a lambda(ğ‰ñ•8ÑÍÈ¼.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•©ìï8—‘ùÈ¼.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ò±Æøÿÿÿÿ
+r	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êı‹ øÿÿÿÿ8Åµ¾È¼.
+U	java:S106+"9Replace this use of System.out or System.err by a logger.(ŠËã 8íˆ Ê¼.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øô¨ÿ8ššõÈ¼.
+m	java:S117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ“‡Ş8¢ÜñÉ¼.
+]	java:S125*"<This block of commented-out lines of code should be removed.(ì€Œ½şÿÿÿÿ8ãäÈÊ¼.

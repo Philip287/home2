@@ -1,13 +1,14 @@
 
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì¥{
 r	java:S116
 "QRename this field "IdBook" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Úõ©Âıÿÿÿÿ8”ƒ©º.
-Z	java:S106="9Replace this use of System.out or System.err by a logger.(° ’Ğúÿÿÿÿ8Œ¥º£».
-n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì¥{
+Z	java:S106D"9Replace this use of System.out or System.err by a logger.(¥™ãÿÿÿÿÿ8š¤ĞÌ».
 o	java:S116	"SRename this field "NameBook" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Şº¥Š8 á„©º.
-x
-java:S1450"VRemove the "Science" field and declare it as a local variable in the relevant methods.(Â¢ó¤ÿÿÿÿÿ8“‘§£».
-m	java:S128K"LEnd this switch case with an unconditional break, return or throw statement.(»‹¿¼úÿÿÿÿ8Áø‘£».
-s	java:S116"RRename this field "Science" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â¢ó¤ÿÿÿÿÿ8Û·ºªº.
+Z	java:S106="9Replace this use of System.out or System.err by a logger.(° ’Ğúÿÿÿÿ8Œ¥º£».
+O
+java:S1199M"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ8š¤ĞÌ».
 m	java:S128I"LEnd this switch case with an unconditional break, return or throw statement.(œÉ¨£ÿÿÿÿÿ8·Ü¹ªº.
-U	java:S1069"9Replace this use of System.out or System.err by a logger.(ü‘š”8¾·£».
 h	java:S128G"LEnd this switch case with an unconditional break, return or throw statement.(í¤éü8ÿ†·ªº.
+s	java:S116"RRename this field "Science" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â¢ó¤ÿÿÿÿÿ8Û·ºªº.
+U	java:S1069"9Replace this use of System.out or System.err by a logger.(ü‘š”8¾·£».
+m	java:S128K"LEnd this switch case with an unconditional break, return or throw statement.(»‹¿¼úÿÿÿÿ8Æ¾Î».
