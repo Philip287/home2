@@ -1,9 +1,7 @@
 
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ª’Ä
-P
-java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8š¡šæ¿.
-n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ØÀŞîøÿÿÿÿ8 ¦šå¿.
-q	java:S116"PRename this field "Tasks" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ºÕõùÿÿÿÿ8¬ùíå¿.
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à‰ı†8®ùœå¿.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à‰ı†8®ùœå¿.
 s
-java:S1104"QMake Tasks a static final constant or non-public and provide accessors if needed.(—ºÕõùÿÿÿÿ8–³è¿.
+java:S1104"QMake Tasks a static final constant or non-public and provide accessors if needed.(—ºÕõùÿÿÿÿ8–³è¿.
+q	java:S116"PRename this field "Tasks" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ºÕõùÿÿÿÿ8¬ùíå¿.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ª’Ä
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ØÀŞîøÿÿÿÿ8 ¦šå¿.

@@ -1,5 +1,8 @@
 package Homework9;
 
+import Homework9.Enum.Category;
+import Homework9.Enum.Priority;
+
 import java.time.LocalDateTime;
 import java.util.Date;
 
@@ -30,11 +33,11 @@ public class Ex9 {
         NameOfTask = nameOfTask;
     }
 
-    public Homework9.Category getCategory() {
+    public Homework9.Enum.Category getCategory() {
         return Category;
     }
 
-    public void setCategory(Homework9.Category category) {
+    public void setCategory(Homework9.Enum.Category category) {
         Category = category;
     }
 

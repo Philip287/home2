@@ -1,4 +1,4 @@
-package Homework9;
+package Homework9.Enum;
 
 public enum Category {
     HOME("Home"),

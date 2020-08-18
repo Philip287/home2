@@ -1,4 +1,6 @@
 
-t	java:S116	"SRename this field "Category" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó¹ˆşÿÿÿÿ8ğã™â¾.
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ª’Ä
-q	java:S116"URename this field "NameOfTask" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ÒÁ8éË“â¾.
+q	java:S116"URename this field "NameOfTask" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ÒÁ8éË“â¾.
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ü……ñ8˜Á¹ŒÀ.
+t	java:S116"SRename this field "Category" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°òšÖûÿÿÿÿ8˜Á¹ŒÀ.

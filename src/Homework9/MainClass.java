@@ -1,11 +1,11 @@
 package Homework9;
 
-import com.sun.org.apache.xpath.internal.objects.XString;
-import jdk.nashorn.internal.objects.NativeUint8Array;
+import Homework9.Enum.Category;
+import Homework9.Enum.Priority;
+
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
 import java.util.*;
 
 public class MainClass {
@@ -14,62 +14,54 @@ public class MainClass {
         menu();
     }
 
-    public static void Enumeration(List<Ex9> Tasks) {
-        for (int i = 0; i < Tasks.size(); i++) {
-            System.out.println(Tasks.get(i).toString());
+    public static void СurrentTask(List<Ex9> Tasks) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Input: \n " +
+                "Number 1 if you want to a criterion for filter of name of task \n" +
+                "Number 2 if you want to a criterion for filter of category \n" +
+                "Number 3 if you want to a criterion for filter of priority \n" +
+                "Number 4 if you want to a criterion for filter of date of plan \n" +
+                "Number 5 if you want EXIT \n");
+
+        int choice = in.nextInt();
+        switch (choice) {
+            case 1:
+                System.out.println("Input name");
+                String nameToFilter = in.nextLine().toLowerCase();
+                Tasks.stream()
+                        .filter(service -> Objects.equals(service.getNameOfTask().toLowerCase(), nameToFilter))
+                        .forEach(System.out::println);
+                break;
+            case 2:
+                System.out.println("Input category");
+                String categoryToFilter = in.nextLine().toLowerCase();
+                Tasks.stream()
+                        .filter(service -> Objects.equals(service.getCategory().getValue1().toLowerCase(), categoryToFilter))
+                        .forEach(System.out::println);
+                break;
+            case 3:
+                System.out.println("Input priority");
+                String priorityToFilter = in.nextLine().toLowerCase();
+                Tasks.stream()
+                        .filter(service -> Objects.equals(service.getPriority().getValue().toLowerCase(),
+                                priorityToFilter))
+                        .forEach(System.out::println);
+                break;
+            case 4:
+                System.out.println("Input date of plan");
+                String dateOfPlanToFilter = in.nextLine().toLowerCase();
+                Tasks.stream()
+                        .filter(service -> Objects.equals(service.getDateOfPlan().toString().toLowerCase(),
+                                dateOfPlanToFilter))
+                        .forEach(System.out::println);
+                break;
+            case 5:
+                System.out.println("You choice exit looser!");
+                break;
+            default:
+                System.out.println("You enter un correct number");
         }
-
     }
-
-//    public static void СurrentTask(List<Ex9> Tasks) {
-//        Enumeration(Tasks);
-//        Scanner in = new Scanner(System.in);
-//        System.out.print("Input: \n " +
-//                "Number 1 if you want to a criterion for filter of name of task \n" +
-//                "Number 2 if you want to a criterion for filter of category \n" +
-//                "Number 3 if you want to a criterion for filter of priority \n" +
-//                "Number 4 if you want to a criterion for filter of date of plan \n" +
-//                "Number 5 if you want EXIT \n");
-//
-//        int choice = in.nextInt();
-//        switch (choice) {
-//            case 1:
-//                System.out.print("Input name");
-//                String nameToFilter = in.nextLine().toLowerCase();
-//                Tasks.stream()
-//                        .filter(service -> Objects.equals(service.getNameOfTask().toLowerCase(), nameToFilter))
-//                        .forEach(System.out::println);
-//                break;
-//            case 2:
-//                System.out.print("Input category");
-//                String categoryToFilter = in.nextLine().toLowerCase();
-//                Tasks.stream()
-//                        .filter(service -> Objects.equals(service.getCategory().toLowerCase(), categoryToFilter))
-//                        .forEach(System.out::println);
-//                break;
-//            case 3:
-//                System.out.print("Input priority");
-//                String priorityToFilter = in.nextLine().toLowerCase();
-//                Tasks.stream()
-//                        .filter(service -> Objects.equals(service.getPriority().getValue().toLowerCase(),
-//                                priorityToFilter))
-//                        .forEach(System.out::println);
-//                break;
-//            case 4:
-//                System.out.print("Input date of plan");
-//                String dateOfPlanToFilter = in.nextLine().toLowerCase();
-//                Tasks.stream()
-//                        .filter(service -> Objects.equals(service.getDateOfPlan().toString().toLowerCase(),
-//                                dateOfPlanToFilter))
-//                        .forEach(System.out::println);
-//                break;
-//            case 5:
-//                System.out.print("You choice exit looser!");
-//                break;
-//            default:
-//                System.out.println("You enter un correct number");
-//        }
-//    }
 
     public static void menu() {
         Scanner im = new Scanner(System.in);
@@ -77,7 +69,7 @@ public class MainClass {
         taskManager mainP = new taskManager();
         do {
             System.out.println(mainP);
-            System.out.println("What do your wont?");
+            System.out.println("What do you wont?");
             System.out.println("If you wont: \n" +
                     "Enter number 1 if you wont add new task. \n" +
                     "Enter number 2 if you wont preview current tasks, filter according to a certain criterion. \n" +
@@ -99,17 +91,18 @@ public class MainClass {
                     task1.setPriority(addPriority());
                     task1.setDateOfPlan(strToDate());
                     mainP.addTask(task1);
-                    System.out.println(mainP.Tasks);
                     break;
                 case 2:
-                    //                  СurrentTask(mainP.Tasks);
+                    mainP.printTasks();
+                    СurrentTask(mainP.Tasks);
                     break;
                 case 3:
                     //                   СurrentTask(mainP.Tasks);
                     break;
                 case 4:
-                    //                  СurrentTask(mainP.Tasks);
-                    break;
+                    mainP.printTasks();
+                    mainP.removeTasks();
+                break;
                 case 5:
                     break;
                 default:
@@ -185,11 +178,6 @@ public class MainClass {
             }
         } while (true);
     }
-
-    private static void addTask(List<Ex9> tasks) {
     }
-
-
-}
 
 

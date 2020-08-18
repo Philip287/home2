@@ -72,11 +72,13 @@ N
 src/Homework8/Ex2/MainEx2.java,7\2\728ec60beb6c5d5db749270274635cc2bee7ef12
 F
 src/Homework8/Ex1.java,7\3\7366dd651f29c1bafbf33fbca45c9d49b56df145
-K
-src/Homework9/Priority.java,2\2\22c0deae13c964322f223a700e9cb2947d513c0b
 F
 src/Homework9/Ex9.java,6\b\6bbe2e8ee2945d3cbd244b82ee0953ddbecf221f
 L
 src/Homework9/MainClass.java,0\c\0c92a07d56e9233b24715d65e01ce216c63b4e51
 N
 src/Homework9/taskManager.java,e\0\e0ddef255562344ef0d724e2a7ad65822a11f62e
+P
+ src/Homework9/Enum/Category.java,f\2\f2f46983e5bdac203e00de70693f3bdc424e009d
+P
+ src/Homework9/Enum/Priority.java,e\2\e2c032febc064b01f6f970383f848b89fd9c2fa9
