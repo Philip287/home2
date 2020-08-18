@@ -1,26 +1,26 @@
 
-U	java:S106"9Replace this use of System.out or System.err by a logger.(éÁÂ‚8•şÍ».
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(‚şøšüÿÿÿÿ8Ê‹“Í».
+Z	java:S1062"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8©»ïÎ».
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÅÑÎÿÿÿÿÿ8ìŸ÷Ì».
+Z	java:S106<"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8ˆäïÎ».
 Z	java:S106D"9Replace this use of System.out or System.err by a logger.(¼îÈ›ıÿÿÿÿ8‘¸Í».
-U	java:S106J"9Replace this use of System.out or System.err by a logger.(Â©ã8‘¸Í».
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(‚şøšüÿÿÿÿ8Ê‹“Í».
+Z	java:S106M"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8œÓŞÍ».
+Z	java:S106G"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8–É×Í».
+U	java:S106"9Replace this use of System.out or System.err by a logger.(å‰µ„8¶ÜÍ».
 T	java:S106"9Replace this use of System.out or System.err by a logger.(®°½x8¥ÍÍ».
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆÿ±’8ìŸ÷Ì».
+U	java:S106"9Replace this use of System.out or System.err by a logger.(éÁÂ‚8•şÍ».
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8ÁéîÎ».
+Z	java:S1067"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8’ÑïÎ».
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¨ ÊÌ».
 Z	java:S106A"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8ÇùïÎ».
+U	java:S106$"9Replace this use of System.out or System.err by a logger.(éÁÂ‚8˜…®Î».
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8šïÎ».
+U	java:S106J"9Replace this use of System.out or System.err by a logger.(Â©ã8‘¸Í».
 n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì¥{
 {
 java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(×ÆÅÀıÿÿÿÿ8ìŸ÷Ì».
-U	java:S106"9Replace this use of System.out or System.err by a logger.(å‰µ„8¶ÜÍ».
-{
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÅÑÎÿÿÿÿÿ8ìŸ÷Ì».
-Z	java:S106M"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8œÓŞÍ».
-Z	java:S1062"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8©»ïÎ».
 Z	java:S106!"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8ŠÅÎ».
-Z	java:S106<"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8ˆäïÎ».
-Z	java:S106G"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8–É×Í».
-U	java:S106$"9Replace this use of System.out or System.err by a logger.(éÁÂ‚8˜…®Î».
-Z	java:S106("9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8ÁéîÎ».
-Z	java:S1067"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8’ÑïÎ».
-Z	java:S106-"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8šïÎ».
-v
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆÿ±’8ìŸ÷Ì».
-M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¨ ÊÌ».

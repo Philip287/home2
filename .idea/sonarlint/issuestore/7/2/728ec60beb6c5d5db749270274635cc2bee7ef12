@@ -1,0 +1,16 @@
+
+X
+java:S1144$"6Remove this unused private "perspectiveMethod" method.(»üìÞøÿÿÿÿ8š¦çá¾.
+H
+java:S1481="&Remove this unused "a" local variable.(³àæêýÿÿÿÿ8š¦çá¾.
+\
+java:S18548":Remove this useless assignment to local variable "models".(ÒèÜÆüÿÿÿÿ8ä þà¾.
+W
+java:S1854="5Remove this useless assignment to local variable "a".(³àæêýÿÿÿÿ8ä þà¾.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Õ¨¯‰øÿÿÿÿ
+K
+java:S11447"/Remove this unused private "someMethod" method.(Æ˜ï.8š¦çá¾.
+M
+java:S14818"+Remove this unused "models" local variable.(ÒèÜÆüÿÿÿÿ8š¦çá¾.
+U	java:S1064"9Replace this use of System.out or System.err by a logger.(›Í›ó8ä þà¾.
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(›Í›ó8ä þà¾.

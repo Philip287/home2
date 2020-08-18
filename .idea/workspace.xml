@@ -20,7 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a50be8a7-13d5-4063-b500-86b46d2b7565" name="Default Changelist" comment="домашняя 2">
-      <change afterPath="$PROJECT_DIR$/src/Homework9/Priority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework9/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework9/taskManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/09c1809b6c5352dbf2db50c70ee12168829c8830" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/09c1809b6c5352dbf2db50c70ee12168829c8830" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/14c1f3f981e874fbdb79e624adf2f55580427e6c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1eb20fefb622eb2818cc48163ae9cb2c81c6b747" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1eb20fefb622eb2818cc48163ae9cb2c81c6b747" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1ef630b6667d64acd32293f16c5c925bcc7b4110" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/29f7f85e04cfa74d3b6f58e794f155b2b78680ee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7ecaa65ee3b09e2c9607e8730293dc93dfc368f4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7ecaa65ee3b09e2c9607e8730293dc93dfc368f4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/8635c8f7676e4d28bbe9ba6f91afae094bd284d4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/8635c8f7676e4d28bbe9ba6f91afae094bd284d4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86dcdb095bc6cbb9e4bbe126c2c6bec774b128af" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86dcdb095bc6cbb9e4bbe126c2c6bec774b128af" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a9c675e71335e7225a151ded4df93beaee3d4a50" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e284a9a0fa20afd77f9cfb9b910731991217e3fe" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e284a9a0fa20afd77f9cfb9b910731991217e3fe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f0c9609eedcad5142ca2342c381403eb6f805bba" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework9/Ex9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework9/Ex9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework9/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework9/MainClass.java" afterDir="false" />
@@ -199,18 +212,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1596134621616" />
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1597410943966">
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1597731063274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1597410943966" />
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1597731063274" />
     <state x="466" y="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1596459217302">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="466" y="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.728@0.0.1366.728" timestamp="1596459217302" />
-    <state x="424" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596203773587">
+    <state x="424" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1597729876105">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="424" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1596203773587" />
+    <state x="424" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1597729876105" />
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596545802834">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -223,38 +236,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596213180580" />
-    <state width="1323" height="178" key="GridCell.Tab.0.bottom" timestamp="1597410448627">
+    <state width="1323" height="178" key="GridCell.Tab.0.bottom" timestamp="1597732291026">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597410448627" />
-    <state width="1323" height="178" key="GridCell.Tab.0.center" timestamp="1597410448627">
+    <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597732291026" />
+    <state width="1323" height="178" key="GridCell.Tab.0.center" timestamp="1597732291026">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597410448627" />
-    <state width="1323" height="178" key="GridCell.Tab.0.left" timestamp="1597410448627">
+    <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597732291026" />
+    <state width="1323" height="178" key="GridCell.Tab.0.left" timestamp="1597732291025">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597410448627" />
-    <state width="1323" height="178" key="GridCell.Tab.0.right" timestamp="1597410448627">
+    <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597732291025" />
+    <state width="1323" height="178" key="GridCell.Tab.0.right" timestamp="1597732291026">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597410448627" />
-    <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1597393383175">
+    <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597732291026" />
+    <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1597678094768">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597393383175" />
-    <state width="1323" height="222" key="GridCell.Tab.1.center" timestamp="1597393383174">
+    <state width="1323" height="222" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597678094768" />
+    <state width="1323" height="222" key="GridCell.Tab.1.center" timestamp="1597678094768">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1597393383174" />
-    <state width="1323" height="222" key="GridCell.Tab.1.left" timestamp="1597393383174">
+    <state width="1323" height="222" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1597678094768" />
+    <state width="1323" height="222" key="GridCell.Tab.1.left" timestamp="1597678094768">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1597393383174" />
-    <state width="1323" height="222" key="GridCell.Tab.1.right" timestamp="1597393383174">
+    <state width="1323" height="222" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1597678094768" />
+    <state width="1323" height="222" key="GridCell.Tab.1.right" timestamp="1597678094768">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1597393383174" />
+    <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1597678094768" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1596213202591">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -308,6 +321,26 @@
           <url>file://$PROJECT_DIR$/src/Homework7/Exeption.java</url>
           <line>15</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Homework9/MainClass.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Homework9/MainClass.java</url>
+          <line>142</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Homework9/MainClass.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Homework9/MainClass.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

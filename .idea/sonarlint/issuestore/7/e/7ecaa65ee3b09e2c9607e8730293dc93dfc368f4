@@ -1,25 +1,25 @@
 
-Z	java:S1065"9Replace this use of System.out or System.err by a logger.(«ŸÑ±úÿÿÿÿ8Ø‹Ş·.
+s
+java:S1858"Q"getMobileReadableString" returns a string, there's no need to call "toString()".(áÁˆùşÿÿÿÿ8ûñ¬„·.
+]	java:S125"<This block of commented-out lines of code should be removed.(Õ¥†÷ûÿÿÿÿ8Ø‹Ş·.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îúÒíøÿÿÿÿ
+Z	java:S106F"9Replace this use of System.out or System.err by a logger.(¹©À²úÿÿÿÿ8Ø‹Ş·.
+r	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÂÉşÿÿÿÿ8Ü·Ìƒ·.
+U	java:S106("9Replace this use of System.out or System.err by a logger.(ÿ¿’¹8ã¥Ş·.
+r	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÂÉşÿÿÿÿ8ßèÌƒ·.
+L
+java:S3740l"/Provide the parametrized type for this generic.(¦åÎØ8ûñ¬„·.
+r	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÂÉşÿÿÿÿ8­İËƒ·.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(áÁˆùşÿÿÿÿ8šà·.
 Q
 java:S3740
 "/Provide the parametrized type for this generic.(ÈÂÉşÿÿÿÿ8ûñ¬„·.
-r	java:S117
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÂÉşÿÿÿÿ8­İËƒ·.
-U	java:S106("9Replace this use of System.out or System.err by a logger.(ÿ¿’¹8ã¥Ş·.
-L
-java:S3740l"/Provide the parametrized type for this generic.(¦åÎØ8ûñ¬„·.
 L
 java:S3740"/Provide the parametrized type for this generic.(¨˜ŞÄ8ûñ¬„·.
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(îúÒíøÿÿÿÿ
-r	java:S117
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÂÉşÿÿÿÿ8Ü·Ìƒ·.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(áÁˆùşÿÿÿÿ8šà·.
-X	java:S125G"<This block of commented-out lines of code should be removed.(í“ºÚ8Ø‹Ş·.
-r	java:S117
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÂÉşÿÿÿÿ8ßèÌƒ·.
 Q
 java:S3740p"/Provide the parametrized type for this generic.(Ş·ä€ÿÿÿÿÿ8ûñ¬„·.
-s
-java:S1858"Q"getMobileReadableString" returns a string, there's no need to call "toString()".(áÁˆùşÿÿÿÿ8ûñ¬„·.
-Z	java:S106F"9Replace this use of System.out or System.err by a logger.(¹©À²úÿÿÿÿ8Ø‹Ş·.
-]	java:S125"<This block of commented-out lines of code should be removed.(Õ¥†÷ûÿÿÿÿ8Ø‹Ş·.
+Z	java:S1065"9Replace this use of System.out or System.err by a logger.(«ŸÑ±úÿÿÿÿ8Ø‹Ş·.
+X	java:S125G"<This block of commented-out lines of code should be removed.(í“ºÚ8Ø‹Ş·.

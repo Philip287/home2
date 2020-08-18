@@ -6,19 +6,10 @@ import java.util.Date;
 public class Ex9 {
     private int numberTask;
     private String NameOfTask;
-    private String Category;
+    private Category Category;
     private Priority priority;
     private Date dateOfPlan;
     private LocalDateTime dateNow;
-
-    public Ex9(int numberTask, String nameOfTask, String category, Priority priority, Date dateOfPlan, LocalDateTime dateNow) {
-        this.numberTask = numberTask;
-        NameOfTask = nameOfTask;
-        Category = category;
-        this.priority = priority;
-        this.dateOfPlan = dateOfPlan;
-        this.dateNow = dateNow;
-    }
 
     public Ex9() {
     }
@@ -39,11 +30,11 @@ public class Ex9 {
         NameOfTask = nameOfTask;
     }
 
-    public String getCategory() {
+    public Homework9.Category getCategory() {
         return Category;
     }
 
-    public void setCategory(String category) {
+    public void setCategory(Homework9.Category category) {
         Category = category;
     }
 
@@ -76,10 +67,11 @@ public class Ex9 {
         return "Ex9" +
                 "numberTask=" + numberTask +
                 ", NameOfTask='" + NameOfTask +
-                ", Category='" + Category +
+                ", Category=" + Category +
                 ", priority=" + priority +
                 ", dateOfPlan=" + dateOfPlan +
-                ", dateNow=" + dateNow;
+                ", dateNow=" + dateNow ;
     }
 }
+
 

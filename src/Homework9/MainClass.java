@@ -1,5 +1,8 @@
 package Homework9;
 
+import com.sun.org.apache.xpath.internal.objects.XString;
+import jdk.nashorn.internal.objects.NativeUint8Array;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
@@ -8,8 +11,7 @@ import java.util.*;
 public class MainClass {
 
     public static void main(String[] args) {
-        List<Ex9> Tasks = new ArrayList<>();
-        menu(Tasks);
+        menu();
     }
 
     public static void Enumeration(List<Ex9> Tasks) {
@@ -19,60 +21,62 @@ public class MainClass {
 
     }
 
-    public static void СurrentTask(List<Ex9> Tasks) {
-        Enumeration(Tasks);
-        Scanner in = new Scanner(System.in);
-        System.out.print("Input: \n " +
-                "Number 1 if you want to a criterion for filter of name of task \n" +
-                "Number 2 if you want to a criterion for filter of category \n" +
-                "Number 3 if you want to a criterion for filter of priority \n" +
-                "Number 4 if you want to a criterion for filter of date of plan \n" +
-                "Number 5 if you want EXIT \n");
+//    public static void СurrentTask(List<Ex9> Tasks) {
+//        Enumeration(Tasks);
+//        Scanner in = new Scanner(System.in);
+//        System.out.print("Input: \n " +
+//                "Number 1 if you want to a criterion for filter of name of task \n" +
+//                "Number 2 if you want to a criterion for filter of category \n" +
+//                "Number 3 if you want to a criterion for filter of priority \n" +
+//                "Number 4 if you want to a criterion for filter of date of plan \n" +
+//                "Number 5 if you want EXIT \n");
+//
+//        int choice = in.nextInt();
+//        switch (choice) {
+//            case 1:
+//                System.out.print("Input name");
+//                String nameToFilter = in.nextLine().toLowerCase();
+//                Tasks.stream()
+//                        .filter(service -> Objects.equals(service.getNameOfTask().toLowerCase(), nameToFilter))
+//                        .forEach(System.out::println);
+//                break;
+//            case 2:
+//                System.out.print("Input category");
+//                String categoryToFilter = in.nextLine().toLowerCase();
+//                Tasks.stream()
+//                        .filter(service -> Objects.equals(service.getCategory().toLowerCase(), categoryToFilter))
+//                        .forEach(System.out::println);
+//                break;
+//            case 3:
+//                System.out.print("Input priority");
+//                String priorityToFilter = in.nextLine().toLowerCase();
+//                Tasks.stream()
+//                        .filter(service -> Objects.equals(service.getPriority().getValue().toLowerCase(),
+//                                priorityToFilter))
+//                        .forEach(System.out::println);
+//                break;
+//            case 4:
+//                System.out.print("Input date of plan");
+//                String dateOfPlanToFilter = in.nextLine().toLowerCase();
+//                Tasks.stream()
+//                        .filter(service -> Objects.equals(service.getDateOfPlan().toString().toLowerCase(),
+//                                dateOfPlanToFilter))
+//                        .forEach(System.out::println);
+//                break;
+//            case 5:
+//                System.out.print("You choice exit looser!");
+//                break;
+//            default:
+//                System.out.println("You enter un correct number");
+//        }
+//    }
 
-        int choice = in.nextInt();
-        switch (choice) {
-            case 1:
-                System.out.print("Input name");
-                String nameToFilter = in.nextLine().toLowerCase();
-                Tasks.stream()
-                        .filter(service -> Objects.equals(service.getNameOfTask().toLowerCase(), nameToFilter))
-                        .forEach(System.out::println);
-                break;
-            case 2:
-                System.out.print("Input category");
-                String categoryToFilter = in.nextLine().toLowerCase();
-                Tasks.stream()
-                        .filter(service -> Objects.equals(service.getCategory().toLowerCase(), categoryToFilter))
-                        .forEach(System.out::println);
-                break;
-            case 3:
-                System.out.print("Input priority");
-                String priorityToFilter = in.nextLine().toLowerCase();
-                Tasks.stream()
-                        .filter(service -> Objects.equals(service.getPriority().getValue().toLowerCase(),
-                                priorityToFilter))
-                        .forEach(System.out::println);
-                break;
-            case 4:
-                System.out.print("Input date of plan");
-                String dateOfPlanToFilter = in.nextLine().toLowerCase();
-                Tasks.stream()
-                        .filter(service -> Objects.equals(service.getDateOfPlan().toString().toLowerCase(),
-                                dateOfPlanToFilter))
-                        .forEach(System.out::println);
-                break;
-            case 5:
-                System.out.print("You choice exit looser!");
-                break;
-            default:
-                System.out.println("You enter un correct number");
-        }
-    }
-
-    public static void menu(List<Ex9> Tasks) {
+    public static void menu() {
         Scanner im = new Scanner(System.in);
         int firstChoise;
+        taskManager mainP = new taskManager();
         do {
+            System.out.println(mainP);
             System.out.println("What do your wont?");
             System.out.println("If you wont: \n" +
                     "Enter number 1 if you wont add new task. \n" +
@@ -83,16 +87,28 @@ public class MainClass {
             firstChoise = im.nextInt();
             switch (firstChoise) {
                 case 1:
-                    addTask(Tasks);
+                    Ex9 task1 = new Ex9();
+                    task1.setNumberTask(addNumber());
+                    System.out.println("Enter Name Of Task");
+                    String name = im.nextLine(); // следующие три строчки можно сделать одной, но моя "идея" баг ловит, не знаю почему.
+                    name = im.nextLine();
+                    task1.setNameOfTask(name);
+                    System.out.println("Enter Category Of Task (Home, Work or Other)");
+                    task1.setCategory(addCategory());
+                    System.out.println("Enter Priority Of Task (High, Middle or Low)");
+                    task1.setPriority(addPriority());
+                    task1.setDateOfPlan(strToDate());
+                    mainP.addTask(task1);
+                    System.out.println(mainP.Tasks);
                     break;
                 case 2:
-                    СurrentTask(Tasks);
+                    //                  СurrentTask(mainP.Tasks);
                     break;
                 case 3:
-                    СurrentTask(Tasks);
+                    //                   СurrentTask(mainP.Tasks);
                     break;
                 case 4:
-                    СurrentTask(Tasks);
+                    //                  СurrentTask(mainP.Tasks);
                     break;
                 case 5:
                     break;
@@ -102,32 +118,6 @@ public class MainClass {
         }
         while (firstChoise != 5);
 
-    }
-
-    public static void addTask(List<Ex9> Tasks) {
-        Ex9 task1 = new Ex9();
-        Scanner im = new Scanner(System.in);
-        System.out.println("Enter Number of task");
-        task1.setNumberTask(im.nextInt());
-        System.out.println("Enter Name Of Task");
-        task1.setNameOfTask(im.nextLine());
-        System.out.println("Enter Category Of Task");
-        task1.setCategory(im.nextLine());
-        System.out.println("Enter Priority Of Task");
-        String priority = im.nextLine();
-        if (priority == Priority.HIGH.getValue()) {
-            task1.setPriority(Priority.HIGH);
-        } else if (priority == Priority.LOW.getValue()) {
-            task1.setPriority(Priority.LOW);
-        } else if (priority == Priority.MIDDLE.getValue()) {
-            task1.setPriority(Priority.MIDDLE);
-        } else {
-            System.out.println("You enter un correct date");
-        }
-        task1.setDateOfPlan (strToDate());
-        task1.setDateNow(LocalDateTime.now());
-        Tasks.add(task1);
-        System.out.println(Tasks);
     }
 
     public static Date strToDate() {
@@ -144,4 +134,62 @@ public class MainClass {
             return strToDate();
         }
     }
+
+    public static Priority addPriority() {
+        do {
+            Scanner im = new Scanner(System.in);
+            String priority = im.nextLine();
+            if (priority.equals(Priority.HIGH.getValue())) {
+                return (Priority.HIGH);
+            } else if (priority.equals(Priority.LOW.getValue())) {
+                return (Priority.LOW);
+            } else if (priority.equals(Priority.MIDDLE.getValue())) {
+                return (Priority.MIDDLE);
+            } else {
+                System.out.println("Try again! Enter Priority Of Task (High, Middle or Low): ");
+            }
+        } while (true);
+
+    }
+
+    public static Category addCategory() {
+        do {
+            Scanner im = new Scanner(System.in);
+            String category = im.nextLine();
+            if (category.equals(Category.HOME.getValue1())) {
+                return (Category.HOME);
+            } else if (category.equals(Category.WORK.getValue1())) {
+                return (Category.WORK);
+            } else if (category.equals(Category.OTHER.getValue1())) {
+                return (Category.OTHER);
+            } else {
+                System.out.println("Try again! Enter Category Of Task (Home, Work or Other): ");
+            }
+        } while (true);
+
+    }
+
+    public static int addNumber() {
+        do {
+            System.out.println("Enter Number of task (From 1 to 10)");
+            Scanner im = new Scanner(System.in);
+            int number;
+            try {
+                number = Integer.parseInt(im.nextLine());
+            } catch (Exception e) {
+                System.out.println("Invalid parametrs. Try again! ");
+                number = 0;
+            }
+            if (number <= 10 && number >= 1) {
+                return number;
+            }
+        } while (true);
+    }
+
+    private static void addTask(List<Ex9> tasks) {
+    }
+
+
 }
+
+
