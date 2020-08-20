@@ -32,7 +32,7 @@ public class taskManager {
 
     public void removeTasks() {
         Scanner im = new Scanner(System.in);
-        System.out.println("Enter number of task to remove: ");
+        System.out.print("Enter number of task to remove: ");
         try {
             int nameToRemove = im.nextInt() - 1;
             Tasks.remove(nameToRemove);

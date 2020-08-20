@@ -22,6 +22,7 @@
     <list default="true" id="a50be8a7-13d5-4063-b500-86b46d2b7565" name="Default Changelist" comment="домашняя 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework9/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework9/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework9/taskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework9/taskManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,22 +222,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597911321506" />
-    <state width="1323" height="13" key="GridCell.Tab.0.bottom" timestamp="1597926820203">
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1597930762016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="13" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597926820203" />
-    <state width="1323" height="13" key="GridCell.Tab.0.center" timestamp="1597926820187">
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597930762016" />
+    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1597930762016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="13" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597926820187" />
-    <state width="1323" height="13" key="GridCell.Tab.0.left" timestamp="1597926820187">
+    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597930762016" />
+    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1597930762016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="13" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597926820187" />
-    <state width="1323" height="13" key="GridCell.Tab.0.right" timestamp="1597926820203">
+    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597930762016" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1597930762016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="13" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597926820203" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597930762016" />
     <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1597678094768">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -261,6 +262,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596213314023" />
+    <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597928764393">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="500" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1597928764393" />
     <state x="65" y="0" key="new project wizard" timestamp="1596216384925">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -299,7 +304,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Homework9/MainClass.java</url>
-          <line>155</line>
+          <line>166</line>
           <properties class="Homework9.MainClass" method="addCategory">
             <option name="EMULATED" value="true" />
           </properties>
@@ -317,28 +322,38 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Homework9/MainClass.java</url>
-          <line>21</line>
+          <line>19</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Homework9/MainClass.java</url>
-          <line>142</line>
+          <line>149</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Homework9/MainClass.java</url>
-          <line>123</line>
+          <line>129</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Homework9/MainClass.java</url>
-          <line>89</line>
+          <line>91</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Homework9/MainClass.java</url>
-          <line>81</line>
+          <line>82</line>
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Homework9/MainClass.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Homework9/MainClass.java</url>
+          <line>168</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
