@@ -7,7 +7,7 @@ import java.time.LocalDateTime;
 import java.util.Date;
 
 public class Ex9 {
-    private int numberTask;
+
     private String NameOfTask;
     private Category Category;
     private Priority priority;
@@ -15,14 +15,6 @@ public class Ex9 {
     private LocalDateTime dateNow;
 
     public Ex9() {
-    }
-
-    public int getNumberTask() {
-        return numberTask;
-    }
-
-    public void setNumberTask(int numberTask) {
-        this.numberTask = numberTask;
     }
 
     public String getNameOfTask() {
@@ -67,13 +59,10 @@ public class Ex9 {
 
     @Override
     public String toString() {
-        return "Ex9" +
-                "numberTask=" + numberTask +
-                ", NameOfTask='" + NameOfTask +
-                ", Category=" + Category +
-                ", priority=" + priority +
-                ", dateOfPlan=" + dateOfPlan +
-                ", dateNow=" + dateNow ;
+        return "Name of task: " + NameOfTask +
+                ". Category: " + Category +
+                ". Priority: " + priority +
+                ". Date of plan: " + dateOfPlan + ".";
     }
 }
 

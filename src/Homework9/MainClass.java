@@ -16,7 +16,7 @@ public class MainClass {
 
     public static void СurrentTask(List<Ex9> Tasks) {
         Scanner in = new Scanner(System.in);
-        System.out.print("Input: \n " +
+        System.out.print("Input: \n" +
                 "Number 1 if you want to a criterion for filter of name of task \n" +
                 "Number 2 if you want to a criterion for filter of category \n" +
                 "Number 3 if you want to a criterion for filter of priority \n" +
@@ -80,7 +80,6 @@ public class MainClass {
             switch (firstChoise) {
                 case 1:
                     Ex9 task1 = new Ex9();
-                    task1.setNumberTask(addNumber());
                     System.out.println("Enter Name Of Task");
                     String name = im.nextLine(); // следующие три строчки можно сделать одной, но моя "идея" баг ловит, не знаю почему.
                     name = im.nextLine();
@@ -97,7 +96,24 @@ public class MainClass {
                     СurrentTask(mainP.Tasks);
                     break;
                 case 3:
-                    //                   СurrentTask(mainP.Tasks);
+                    System.out.println("Enter what do you need edit?");
+                    String elementToEdit = im.nextLine();
+                    Ex9 task = mainP.getTask( Integer.parseInt(elementToEdit));
+                    System.out.println(task);
+                    System.out.println("Enter that you want to insert in his place: ");
+                    System.out.println("Name of task (1) " + "Category (2) " + "Priority (3) " +
+                            "Date of plan (4) ");
+                    String editElement = im.nextLine();
+//                    switch (Integer.parseInt(editElement)){
+//                        case 1:
+//                            System.out.println("Enter newNumberTask: ");
+//                            int newNumberTask = im.nextInt();
+//                            task.setNumberTask(newNumberTask);
+//                            break;
+//                    }
+
+                    mainP.editTask(task,Integer.parseInt(elementToEdit));
+//
                     break;
                 case 4:
                     mainP.printTasks();
@@ -162,22 +178,22 @@ public class MainClass {
 
     }
 
-    public static int addNumber() {
-        do {
-            System.out.println("Enter Number of task (From 1 to 10)");
-            Scanner im = new Scanner(System.in);
-            int number;
-            try {
-                number = Integer.parseInt(im.nextLine());
-            } catch (Exception e) {
-                System.out.println("Invalid parametrs. Try again! ");
-                number = 0;
-            }
-            if (number <= 10 && number >= 1) {
-                return number;
-            }
-        } while (true);
-    }
+//    public static int addNumber() {
+//        do {
+//            System.out.println("Enter Number of task (From 1 to 10)");
+//            Scanner im = new Scanner(System.in);
+//            int number;
+//            try {
+//                number = Integer.parseInt(im.nextLine());
+//            } catch (Exception e) {
+//                System.out.println("Invalid parametrs. Try again! ");
+//                number = 0;
+//            }
+//            if (number <= 10 && number >= 1) {
+//                return number;
+//            }
+//        } while (true);
+//    }
     }
 
 
