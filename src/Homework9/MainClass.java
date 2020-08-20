@@ -94,7 +94,7 @@ public class MainClass {
                     break;
                 case 2:
                     mainP.printTasks();
-                    СurrentTask();
+                    СurrentTask(mainP.Tasks);
                     break;
                 case 3:
                     mainP.printTasks();
