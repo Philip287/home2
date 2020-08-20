@@ -2,6 +2,7 @@ package Homework9;
 
 import Homework9.Enum.Category;
 import Homework9.Enum.Priority;
+import javafx.concurrent.Task;
 
 
 import java.text.ParseException;
@@ -93,33 +94,22 @@ public class MainClass {
                     break;
                 case 2:
                     mainP.printTasks();
-                    СurrentTask(mainP.Tasks);
+                    СurrentTask();
                     break;
                 case 3:
-                    System.out.println("Enter what do you need edit?");
-                    String elementToEdit = im.nextLine();
-                    Ex9 task = mainP.getTask( Integer.parseInt(elementToEdit));
-                    System.out.println(task);
-                    System.out.println("Enter that you want to insert in his place: ");
-                    System.out.println("Name of task (1) " + "Category (2) " + "Priority (3) " +
-                            "Date of plan (4) ");
-                    String editElement = im.nextLine();
-//                    switch (Integer.parseInt(editElement)){
-//                        case 1:
-//                            System.out.println("Enter newNumberTask: ");
-//                            int newNumberTask = im.nextInt();
-//                            task.setNumberTask(newNumberTask);
-//                            break;
-//                    }
-
-                    mainP.editTask(task,Integer.parseInt(elementToEdit));
-//
-                    break;
+                    mainP.printTasks();
+                    System.out.println("Enter number of task what do you need edit?");
+                    String elementToEdit;
+                    Scanner im2 = new Scanner(System.in);
+                    elementToEdit = im2.nextLine();
+                    Ex9 task = mainP.getTask(Integer.parseInt(elementToEdit) - 1);
+                    mainP.editTask(correctTask(task), Integer.parseInt(elementToEdit) - 1);
                 case 4:
                     mainP.printTasks();
                     mainP.removeTasks();
-                break;
+                    break;
                 case 5:
+                    System.out.println("You enter exit!");
                     break;
                 default:
                     System.out.println("You enter un correct data! Try again");
@@ -178,6 +168,45 @@ public class MainClass {
 
     }
 
+    public static Ex9 correctTask(Ex9 task) {
+
+        System.out.println(task);
+        System.out.println("Enter that you want to insert in his place: ");
+        System.out.println("Name of task (1) " + "Category (2) " + "Priority (3) " +
+                "Date of plan (4) ");
+        int chois;
+        do {
+            Scanner im3 = new Scanner(System.in);
+            String editElement = im3.nextLine();
+            switch (chois = Integer.parseInt(editElement)) {
+                case 1:
+                    System.out.println("Enter new name of task: ");
+                    String newNameOfTask = im3.nextLine();
+                    task.setNameOfTask(newNameOfTask);
+                    break;
+                case 2:
+                    System.out.println("Enter new category of task: ");
+                    String newCategory = im3.nextLine();
+                    task.setCategory(newCategory);
+                    break;
+                case 3:
+                    System.out.println("Enter new criority of task: ");
+                    String newPriority = im3.nextLine();
+                    task.setPriority(newPriority);
+                    break;
+                case 4:
+                    System.out.println("Enter new date of plan task: ");
+                    String newDateOfPlan = im3.nextLine();
+                    task.setDateOfPlan(newDateOfPlan);
+                    break;
+                default:
+                    System.out.println("You enter un correct data! Try again");
+            }
+        }
+        while (chois != 5);
+        return task;
+    }
+}
 //    public static int addNumber() {
 //        do {
 //            System.out.println("Enter Number of task (From 1 to 10)");
@@ -194,6 +223,6 @@ public class MainClass {
 //            }
 //        } while (true);
 //    }
-    }
+
 
 
