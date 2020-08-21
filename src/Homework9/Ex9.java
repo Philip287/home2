@@ -3,16 +3,25 @@ package Homework9;
 import Homework9.Enum.Category;
 import Homework9.Enum.Priority;
 
+import java.io.Serializable;
+import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.util.Date;
+import java.util.concurrent.TimeUnit;
 
-public class Ex9 {
+public class Ex9 implements Serializable {
 
     private String NameOfTask;
     private Category Category;
     private Priority priority;
     private Date dateOfPlan;
-    private LocalDateTime dateNow;
+
+    public Ex9(String nameOfTask, Homework9.Enum.Category category, Priority priority, Date dateOfPlan) {
+        NameOfTask = nameOfTask;
+        Category = category;
+        this.priority = priority;
+        this.dateOfPlan = dateOfPlan;
+    }
 
     public Ex9() {
     }
@@ -49,12 +58,32 @@ public class Ex9 {
         this.dateOfPlan = dateOfPlan;
     }
 
-    public LocalDateTime getDateNow() {
-        return dateNow;
-    }
+    public void dateOfPlane() {
+        Date dateNow = new Date();
 
-    public void setDateNow(LocalDateTime dateNow) {
-        this.dateNow = dateNow;
+        long raz = this.dateOfPlan.getTime() - dateNow.getTime();
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yy HH:mm:ss");
+        dateNow = new Date(dateNow.getTime());
+        try {
+            //Date date2 = dateFormat.parse(this.dateOfPlan.toString());
+            long milliseconds = dateOfPlan.getTime() - dateNow.getTime();
+            if (milliseconds <= 3600000) {
+                // 1000 миллисекунд = 1 секунда
+                // 3 600 секунд = 60 минут = 1 час
+                int hours = (int) (milliseconds / (60 * 60 * 1000));
+                System.out.println("There are still hours to complete the task : " + hours);
+            }   // 24 часа = 1 440 минут = 1 день
+            else {
+                double days = (int) (milliseconds / (24 * 60 * 60 * 1000));
+                System.out.println("There are still days to complete the task: " + days);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+
+        //return days;
+
     }
 
     @Override

@@ -3,6 +3,9 @@ package Homework9;
 import Homework9.Enum.Category;
 import Homework9.Enum.Priority;
 
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.InputStream;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
@@ -10,7 +13,9 @@ import java.util.*;
 public class MainClass {
 
     public static void main(String[] args) {
+
         menu();
+
     }
 
     public static void СurrentTask(List<Ex9> Tasks) {
@@ -68,10 +73,14 @@ public class MainClass {
     }
 
     public static void menu() {
+
         try {
             Scanner im = new Scanner(System.in);
             int firstChoise;
             taskManager mainP = new taskManager();
+            String fileName ="c:\\Users\\hp\\IdeaProjects\\home2\\out\\production\\Домашка2\\Homework9\\test.date";
+            mainP.readFromFile(fileName);
+
             do {
                 System.out.println(mainP);
                 System.out.println("What do you wont?");
@@ -94,6 +103,7 @@ public class MainClass {
                         task1.setPriority(addPriority());
                         task1.setDateOfPlan(strToDate());
                         mainP.addTask(task1);
+                        mainP.writeToFile(fileName);
                         break;
                     case 2:
                         mainP.printTasks();
@@ -128,9 +138,9 @@ public class MainClass {
 
     public static Date strToDate() {
         Scanner im = new Scanner(System.in);
-        System.out.print("Enter Date Of Task like 2011-12-31: ");
+        System.out.print("Enter Date Of Task like 31.12.2020 17:20:00 : ");
         String str = im.nextLine();
-        SimpleDateFormat ft = new SimpleDateFormat("yyyy-MM-dd");
+        SimpleDateFormat ft = new SimpleDateFormat("dd.MM.yy HH:mm:ss");
         Date parsingDate;
         try {
             parsingDate = ft.parse(str);

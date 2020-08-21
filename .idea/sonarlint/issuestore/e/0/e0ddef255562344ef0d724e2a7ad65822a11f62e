@@ -1,19 +1,43 @@
 
-R
-java:S1191"5Use classes from the Java API instead of Sun classes.(Í—¼‰8¹õÈÀ.
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ª’Ä
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(õãĞúÿÿÿÿ8ßÄ‚«À.
-U	java:S106 "9Replace this use of System.out or System.err by a logger.(ğæçŒ8ßÄ‚«À.
-U
-java:S1128"3Remove this unused import 'java.util.ListIterator'.(õ¥æÊşÿÿÿÿ8™¤ë¬À.
-W
-java:S1854"5Remove this useless assignment to local variable "n".(ÎôÖ®ıÿÿÿÿ8ßÄ‚«À.
-q	java:S116"PRename this field "Tasks" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ºÕõùÿÿÿÿ8ßÄ‚«À.
-r	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø’ŒËıÿÿÿÿ8È•¤«À.
-s
-java:S1104"QMake Tasks a static final constant or non-public and provide accessors if needed.(—ºÕõùÿÿÿÿ8ßÄ‚«À.
-Z	java:S106&"9Replace this use of System.out or System.err by a logger.(ñÄ­øÿÿÿÿ8ßÄ‚«À.
-[
-java:S1128">Remove this unused import 'com.sun.jmx.snmp.tasks.TaskServer'.(Í—¼‰8¹õÈÀ.
+a
+java:S2147b"DCombine this catch with the one at line 96, which has the same body.(Ö¨š•8ïÇñÿÀ.
+q
+java:S2095Z"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(ÑÒ»¥øÿÿÿÿ8ïÇñÿÀ.
+n
+java:S1104"QMake Tasks a static final constant or non-public and provide accessors if needed.(ïŒ÷à8ßÄ‚«À.
+Z	java:S106."9Replace this use of System.out or System.err by a logger.(ëÏãÊúÿÿÿÿ8¬”áâÀ.
+
+java:S1319"pThe type of the "Tasks" object should be an interface such as "List" rather than the implementation "ArrayList".(ïŒ÷à8ëÃ¯ŒÁ.
+k
+java:S2095S"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ÍÖ8ïÇñÿÀ.
 n	java:S101
 "MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ØÀŞîøÿÿÿÿ8ßÄ‚«À.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ı™øøÿÿÿÿ8“à‹Á.
+M
+java:S1172O"+Remove this unused method parameter "Task".(°Ğ¯œøÿÿÿÿ8ïÓ€Á.
+H
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8ûÖŠÁ.
+c
+java:S2118"FMake the "java.util.ArrayList" class "Serializable" or don't write it.(§Áö¡8•ƒè‹Á.
+Y
+java:S1854["7Remove this useless assignment to local variable "obj".(ç£×Ùùÿÿÿÿ8ïÓ€Á.
+J
+java:S1481["(Remove this unused "obj" local variable.(ç£×Ùùÿÿÿÿ8ïÓ€Á.
+Z	java:S106<"9Replace this use of System.out or System.err by a logger.(«”Íÿÿÿÿÿ8½€áâÀ.
+r	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Ğ¯œøÿÿÿÿ8ïÇñÿÀ.
+Z	java:S106B"9Replace this use of System.out or System.err by a logger.(ñÄ­øÿÿÿÿ8½€áâÀ.
+l	java:S116"PRename this field "Tasks" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïŒ÷à8ßÄ‚«À.
+W
+java:S18540"5Remove this useless assignment to local variable "n".(ÎôÖ®ıÿÿÿÿ8¬”áâÀ.
+o
+java:S2095Y"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(¦ïˆøÿÿÿÿ8ïÇñÿÀ.
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(ı™øøÿÿÿÿ8Ÿ¡ì‹Á.
+~
+java:S4087"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(İÛĞK8ää„ŒÁ.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ª’Ä
+
+java:S4087!"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(¨ÿÃš8³»†ŒÁ.
+r	java:S117K"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø’ŒËıÿÿÿÿ8È•¤«À.
+T
+java:S1128"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ8ûÖŠÁ.
+]	java:S125"<This block of commented-out lines of code should be removed.(³˜Ìÿÿÿÿÿ8„çñ‹Á.
