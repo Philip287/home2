@@ -32,15 +32,11 @@ public class taskManager {
 
     }
 
-
     public void printTasks() {
         int size = this.Tasks.size();
         for (int i = 0; i < size; ++i) {
-            int n = 1;
-            System.out.println("Task №" + n + ". " + this.Tasks.get(i));
+            System.out.println("Task №" + (i+1) + ". " + this.Tasks.get(i));
             this.Tasks.get(i).dateOfPlane();
-            n += 1;
-
         }
     }
 

@@ -63,7 +63,6 @@ public class Ex9 implements Serializable {
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yy HH:mm:ss");
         dateNow = new Date(dateNow.getTime());
         try {
-            //Date date2 = dateFormat.parse(this.dateOfPlan.toString());
             long milliseconds = dateOfPlan.getTime() - dateNow.getTime();
             if (milliseconds <= 3600000) {
                 // 1000 миллисекунд = 1 секунда
