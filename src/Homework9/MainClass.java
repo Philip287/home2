@@ -80,7 +80,6 @@ public class MainClass {
             taskManager mainP = new taskManager();
             String fileName ="c:\\Users\\hp\\IdeaProjects\\home2\\out\\production\\Домашка2\\Homework9\\test.date";
             mainP.readFromFile(fileName);
-
             do {
                 System.out.println(mainP);
                 System.out.println("What do you wont?");
@@ -89,7 +88,8 @@ public class MainClass {
                         "Enter number 2 if you wont preview current tasks, filter according to a certain criterion. \n" +
                         "Enter number 3 if you wont edit task. \n" +
                         "Enter number 4 if you wont remove task. \n" +
-                        "Enter number 5 to EXIT. \n");
+                        "Enter number 5 if you wont look task. \n"+
+                        "Enter number 6 to EXIT. \n");
                 System.out.print("Enter you your choice: ");
                 firstChoise = im.nextInt();
                 switch (firstChoise) {
@@ -108,6 +108,7 @@ public class MainClass {
                     case 2:
                         mainP.printTasks();
                         СurrentTask(mainP.Tasks);
+                        mainP.writeToFile(fileName);
                         break;
                     case 3:
                         mainP.printTasks();
@@ -117,19 +118,24 @@ public class MainClass {
                         elementToEdit = im2.nextLine();
                         Ex9 task = mainP.getTask(Integer.parseInt(elementToEdit) - 1);
                         mainP.editTask(correctTask(task), Integer.parseInt(elementToEdit) - 1);
+                        mainP.writeToFile(fileName);
                         break;
                     case 4:
                         mainP.printTasks();
                         mainP.removeTasks();
+                        mainP.writeToFile(fileName);
                         break;
                     case 5:
+                        mainP.printTasks();
+                        break;
+                    case 6:
                         System.out.println("You enter exit!");
                         break;
                     default:
                         System.out.println("You enter un correct data! Try again");
                 }
             }
-            while (firstChoise != 5);
+            while (firstChoise != 6);
         } catch (Exception e) {
             System.out.println("You enter un correct data! Try again");
             menu();
@@ -230,23 +236,3 @@ public class MainClass {
         }
     }
 }
-
-//    public static int addNumber() {
-//        do {
-//            System.out.println("Enter Number of task (From 1 to 10)");
-//            Scanner im = new Scanner(System.in);
-//            int number;
-//            try {
-//                number = Integer.parseInt(im.nextLine());
-//            } catch (Exception e) {
-//                System.out.println("Invalid parametrs. Try again! ");
-//                number = 0;
-//            }
-//            if (number <= 10 && number >= 1) {
-//                return number;
-//            }
-//        } while (true);
-//    }
-
-
-

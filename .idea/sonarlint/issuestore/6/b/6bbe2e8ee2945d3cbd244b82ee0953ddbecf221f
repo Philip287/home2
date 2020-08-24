@@ -1,20 +1,21 @@
 
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ª’Ä
-Y
-java:S1854?"7Remove this useless assignment to local variable "raz".(İøË°şÿÿÿÿ8ÍšØŠÁ.
-U	java:S106M"9Replace this use of System.out or System.err by a logger.(ñË8ë±×ŠÁ.
-W
-java:S1128	":Remove this unused import 'java.util.concurrent.TimeUnit'.(Æ™ş8ÍšØŠÁ.
-q	java:S116"URename this field "NameOfTask" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ÒÁ8éË“â¾.
-Q
-java:S1481@"/Remove this unused "dateFormat" local variable.(±‚“ışÿÿÿÿ8œÉîŠÁ.
-]	java:S125C"<This block of commented-out lines of code should be removed.(ßó‹¿ıÿÿÿÿ8œÉîŠÁ.
-X	java:S125T"<This block of commented-out lines of code should be removed.(§€“¯8ÇçÜŠÁ.
-J
-java:S1481?"(Remove this unused "raz" local variable.(İøË°şÿÿÿÿ8ÍšØŠÁ.
-Z	java:S106I"9Replace this use of System.out or System.err by a logger.(µ†õ¥ÿÿÿÿÿ8ë±×ŠÁ.
 V
-java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8è¬çáÀ.
-t	java:S116"SRename this field "Category" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°òšÖûÿÿÿÿ8˜Á¹ŒÀ.
+java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8è¬çáÀ.
+J
+java:S1481@"(Remove this unused "raz" local variable.(İøË°şÿÿÿÿ8ÍšØŠÁ.
+Y
+java:S1854@"7Remove this useless assignment to local variable "raz".(İøË°şÿÿÿÿ8ÍšØŠÁ.
 `
-java:S1854@">Remove this useless assignment to local variable "dateFormat".(±‚“ışÿÿÿÿ8œÉîŠÁ.
+java:S1854A">Remove this useless assignment to local variable "dateFormat".(±‚“ışÿÿÿÿ8œÉîŠÁ.
+q	java:S116"URename this field "NameOfTask" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ÒÁ8éË“â¾.
+]	java:S125D"<This block of commented-out lines of code should be removed.(ßó‹¿ıÿÿÿÿ8œÉîŠÁ.
+X	java:S125U"<This block of commented-out lines of code should be removed.(§€“¯8ÇçÜŠÁ.
+Q
+java:S1481A"/Remove this unused "dateFormat" local variable.(±‚“ışÿÿÿÿ8œÉîŠÁ.
+Z	java:S106J"9Replace this use of System.out or System.err by a logger.(µ†õ¥ÿÿÿÿÿ8ë±×ŠÁ.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ª’Ä
+U	java:S106N"9Replace this use of System.out or System.err by a logger.(ñË8ë±×ŠÁ.
+W
+java:S1128
+":Remove this unused import 'java.util.concurrent.TimeUnit'.(Æ™ş8ÍšØŠÁ.
+t	java:S116"SRename this field "Category" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°òšÖûÿÿÿÿ8˜Á¹ŒÀ.

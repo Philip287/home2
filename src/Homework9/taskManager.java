@@ -1,10 +1,7 @@
 package Homework9;
 
 import java.io.*;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
 import java.util.Scanner;
 
 public class taskManager {
@@ -16,11 +13,9 @@ public class taskManager {
 
     public void writeToFile(String name) {
         try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(name))) {
-
             oos.writeObject(this.Tasks);
             oos.close();
         } catch (Exception ex) {
-
             System.out.println(ex.getMessage());
         }
 
@@ -28,7 +23,6 @@ public class taskManager {
 
     public void readFromFile(String name) {
         try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(name))) {
-            //List<Ex9> p=(List<Ex9>)ois.readObject();
             this.Tasks = (ArrayList) ois.readObject();
             ois.close();
         } catch (Exception ex) {

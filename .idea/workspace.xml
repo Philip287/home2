@@ -23,13 +23,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0c92a07d56e9233b24715d65e01ce216c63b4e51" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0c92a07d56e9233b24715d65e01ce216c63b4e51" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6bbe2e8ee2945d3cbd244b82ee0953ddbecf221f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6bbe2e8ee2945d3cbd244b82ee0953ddbecf221f" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e0ddef255562344ef0d724e2a7ad65822a11f62e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e0ddef255562344ef0d724e2a7ad65822a11f62e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fb90d4598e98376ff6eb830bcab17798e7908b5b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fb90d4598e98376ff6eb830bcab17798e7908b5b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exzample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exzample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework9/Ex9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework9/Ex9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework9/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework9/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework9/taskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework9/taskManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,22 +224,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597911321506" />
-    <state width="1323" height="190" key="GridCell.Tab.0.bottom" timestamp="1598023393587">
+    <state width="1323" height="190" key="GridCell.Tab.0.bottom" timestamp="1598023724012">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="190" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598023393587" />
-    <state width="1323" height="190" key="GridCell.Tab.0.center" timestamp="1598023393587">
+    <state width="1323" height="190" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598023724012" />
+    <state width="1323" height="190" key="GridCell.Tab.0.center" timestamp="1598023724012">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="190" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598023393587" />
-    <state width="1323" height="190" key="GridCell.Tab.0.left" timestamp="1598023393586">
+    <state width="1323" height="190" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598023724012" />
+    <state width="1323" height="190" key="GridCell.Tab.0.left" timestamp="1598023724012">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="190" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598023393586" />
-    <state width="1323" height="190" key="GridCell.Tab.0.right" timestamp="1598023393587">
+    <state width="1323" height="190" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598023724012" />
+    <state width="1323" height="190" key="GridCell.Tab.0.right" timestamp="1598023724012">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="190" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598023393587" />
+    <state width="1323" height="190" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598023724012" />
     <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1597678094768">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -318,7 +314,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Homework9/MainClass.java</url>
-          <line>176</line>
+          <line>180</line>
           <properties class="Homework9.MainClass" method="addCategory">
             <option name="EMULATED" value="true" />
           </properties>
@@ -349,12 +345,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Homework9/MainClass.java</url>
-          <line>159</line>
+          <line>163</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Homework9/MainClass.java</url>
-          <line>139</line>
+          <line>143</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -374,7 +370,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Homework9/MainClass.java</url>
-          <line>178</line>
+          <line>182</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

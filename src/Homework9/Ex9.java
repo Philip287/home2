@@ -2,12 +2,10 @@ package Homework9;
 
 import Homework9.Enum.Category;
 import Homework9.Enum.Priority;
-
 import java.io.Serializable;
 import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
 import java.util.Date;
-import java.util.concurrent.TimeUnit;
+
 
 public class Ex9 implements Serializable {
 
@@ -80,10 +78,6 @@ public class Ex9 implements Serializable {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-
-        //return days;
-
     }
 
     @Override
@@ -94,5 +88,3 @@ public class Ex9 implements Serializable {
                 ". Date of plan: " + dateOfPlan + ".";
     }
 }
-
-
